@@ -1,2 +1,2 @@
-# 2023VGDClass
-The game being designed by the 2023-24 VGD Class
+# 2023 VGD Class
+This repository is being used to store the Unity Project for the Charter Oak Video Game Design class of 2023-24.
