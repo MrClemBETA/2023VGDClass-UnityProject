@@ -7,6 +7,7 @@ namespace cherrydev
 {
     public class DialogBehaviour : MonoBehaviour
     {
+        [SerializeField] private bool matchSpeedToAudio = false;
         [SerializeField] private float dialogCharDelay;
         [SerializeField] private KeyCode nextSentenceKeyCode;
 
@@ -15,6 +16,7 @@ namespace cherrydev
 
         private DialogNodeGraph currentNodeGraph;
         private Node currentNode;
+        private AudioSource audioSource;
 
         public static event Action OnSentenceNodeActive;
 
@@ -38,6 +40,7 @@ namespace cherrydev
         /// <param name="dialogNodeGraph"></param>
         public void StartDialog(DialogNodeGraph dialogNodeGraph)
         {
+            audioSource = GetComponent<AudioSource>();
             if (dialogNodeGraph.nodesList == null)
             {
                 Debug.LogWarning("Dialog Graph's node list is empty");
@@ -67,6 +70,9 @@ namespace cherrydev
                 OnSentenceNodeActive?.Invoke();
                 OnSentenceNodeActiveWithParameter?.Invoke(sentenceNode.GetSentenceCharacterName(),
                     sentenceNode.GetCharacterSprite());
+
+                audioSource.clip = sentenceNode.GetAudioClip();
+                audioSource.Play();
 
                 WriteDialogText(sentenceNode.GetSentenceText());
             }
@@ -129,9 +135,15 @@ namespace cherrydev
         /// <returns></returns>
         private IEnumerator WriteDialogTextRoutine(string text)
         {
+            float charDelay = dialogCharDelay;
+            if(matchSpeedToAudio)
+            {
+                charDelay = audioSource.clip.length / text.Length;
+            }
+
             foreach (char textChar in text)
             {
-                yield return new WaitForSeconds(dialogCharDelay);
+                yield return new WaitForSeconds(charDelay);
                 OnDialogTextCharWrote?.Invoke(textChar);
             }
 

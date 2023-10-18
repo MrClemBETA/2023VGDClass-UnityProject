@@ -10,6 +10,7 @@ namespace cherrydev
         [SerializeField] private TextMeshProUGUI dialogText;
         [SerializeField] private Image dialogCharacterImage;
 
+
         private void Start()
         {
             dialogText.text = string.Empty;

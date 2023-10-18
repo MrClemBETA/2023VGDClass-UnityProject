@@ -43,6 +43,15 @@ namespace cherrydev
             return sentence.characterSprite;
         }
 
+        /// <summary>
+        /// Returning sentence audio clip
+        /// </summary>
+        /// <returns></returns>
+        public AudioClip GetAudioClip()
+        {
+            return sentence.audioClip;
+        }
+
 #if UNITY_EDITOR
 
         /// <summary>
@@ -72,6 +81,12 @@ namespace cherrydev
             EditorGUILayout.LabelField($"Sprite ", GUILayout.Width(lableFieldSpace));
             sentence.characterSprite = (Sprite)EditorGUILayout.ObjectField(sentence.characterSprite,
                 typeof(Sprite), false, GUILayout.Width(textFieldWidth));
+            EditorGUILayout.EndHorizontal();
+
+            EditorGUILayout.BeginHorizontal();
+            EditorGUILayout.LabelField($"Audio ", GUILayout.Width(lableFieldSpace));
+            sentence.audioClip = (AudioClip)EditorGUILayout.ObjectField(sentence.audioClip,
+                typeof(AudioClip), false, GUILayout.Width(textFieldWidth));
             EditorGUILayout.EndHorizontal();
 
             GUILayout.EndArea();
