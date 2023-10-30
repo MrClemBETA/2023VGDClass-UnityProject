@@ -5,7 +5,7 @@ public class Example : MonoBehaviour
     private CharacterController controller;
     private Vector3 playerVelocity;
     private bool groundedPlayer;
-    private float playerSpeed = 5.0f;
+    [SerializeField] float playerSpeed = 5.0f;
     private float sprintMultiplier = 3.0f;
     private float jumpHeight = 3.0f;
     private float gravityValue = -50f;
@@ -21,6 +21,7 @@ public class Example : MonoBehaviour
         if (groundedPlayer && playerVelocity.y < 0)
         {
             playerVelocity.y = 0f;
+
         }
 
         Vector3 move = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
@@ -43,7 +44,7 @@ public class Example : MonoBehaviour
         }
 
         // Changes the height position of the player..
-        if (Input.GetButtonDown("Jump") && groundedPlayer)
+        if (Input.GetKey(KeyCode.Space) && groundedPlayer)
         {
 
             playerVelocity.y += Mathf.Sqrt(jumpHeight * -3.0f * gravityValue);
