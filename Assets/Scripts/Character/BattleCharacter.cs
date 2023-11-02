@@ -16,7 +16,7 @@ namespace SOS.AndrewsAdventure.Character
 
         private string GetData()
         {
-            return attackAttribute.GetData(1) + ", " + defenseAttribute.GetData(1) + ", " + speedAttribute.GetData(1);
+            return attackAttribute.GetData(2) + ", " + defenseAttribute.GetData(1) + ", " + speedAttribute.GetData(1);
         }
     }
 }

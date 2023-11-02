@@ -13,8 +13,10 @@ namespace SOS.AndrewsAdventure.Character
         public int GetData(int level)
         {
             int value = values.Find(x => x.level == level).value;
-            if (value == 0) throw new IndexOutOfRangeException("Level data for level " + level + " does not exist for the " + this.GetType().Name + ".");
-            else return value;
+            if (value == 0)
+                throw new IndexOutOfRangeException("Level data for level " + level + " does not exist for the " + this.GetType().Name + ".");
+            else
+                return value;
 
         }
 
