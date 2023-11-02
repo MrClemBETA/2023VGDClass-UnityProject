@@ -1,58 +1,41 @@
 using UnityEngine;
 
-public class Example : MonoBehaviour
+namespace SOS.AndrewsAdventure.Character
 {
-    private CharacterController controller;
-    private Vector3 playerVelocity;
-    private bool groundedPlayer;
-    [SerializeField] float playerSpeed = 5.0f;
-    private float sprintMultiplier = 3.0f;
-    private float jumpHeight = 3.0f;
-    private float gravityValue = -50f;
-
-    private void Start()
+    public class PlayerMovement : MonoBehaviour
     {
-        controller = gameObject.AddComponent<CharacterController>();
-    }
+        private CharacterController controller;
+        private Vector3 playerVelocity;
+        private bool groundedPlayer;
+        [SerializeField] float playerSpeed = 5.0f;
+        [SerializeField] float sprintMultiplier = 3.0f;
+        [SerializeField] float jumpForce = 3.0f;
+        [SerializeField] KeyCode sprintKeyCode = KeyCode.LeftShift;
+        // private float gravityValue = -50f;
 
-    void Update()
-    {
-        groundedPlayer = controller.isGrounded;
-        if (groundedPlayer && playerVelocity.y < 0)
+        private void Start()
         {
-            playerVelocity.y = 0f;
-
+            controller = gameObject.AddComponent<CharacterController>();
         }
 
-        Vector3 move = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
-
-        // Check if the shift key is held down for sprinting
-        if (Input.GetKey(KeyCode.LeftShift))
+        void Update()
         {
-            move *= playerSpeed * sprintMultiplier;
+            // Ensure player has 0 y velocity if grounded
+            if (controller.isGrounded && playerVelocity.y < 0)
+                playerVelocity.y = 0f;
+
+            Vector3 move = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
+
+            // Check if the shift key is held down for sprinting
+            move *= playerSpeed * (Input.GetKeyDown(sprintKeyCode) ? sprintMultiplier : 1);
+
+            controller.Move(move * Time.deltaTime);
+
+            // Determine if a jump occured
+            if(Input.GetButtonDown("Jump"))
+                controller.attachedRigidbody.AddForce(Vector3.up * jumpForce);
+
         }
-        else
-        {
-            move *= playerSpeed;
-        }
-
-        controller.Move(move * Time.deltaTime);
-
-        if (move != Vector3.zero)
-        {
-            gameObject.transform.forward = move;
-        }
-
-        // Changes the height position of the player..
-        if (Input.GetKey(KeyCode.Space) && groundedPlayer)
-        {
-
-            playerVelocity.y += Mathf.Sqrt(jumpHeight * -3.0f * gravityValue);
-        }
-
-        playerVelocity.y += gravityValue * Time.deltaTime;
-        controller.Move(playerVelocity * Time.deltaTime);
 
     }
-
 }

@@ -5,7 +5,7 @@ namespace SOS.AndrewsAdventure.Dialog
 {
     public class BaseDialog : MonoBehaviour
     {
-        [SerializeField] private DialogBehaviour dialogBehaviour;
+        [SerializeField] protected DialogBehaviour dialogBehaviour;
         [SerializeField] private DialogNodeGraph dialogNodeGraph;
 
         public void StartDialog()
