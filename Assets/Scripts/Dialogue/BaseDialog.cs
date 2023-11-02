@@ -8,8 +8,9 @@ namespace SOS.AndrewsAdventure.Dialog
         [SerializeField] private DialogBehaviour dialogBehaviour;
         [SerializeField] private DialogNodeGraph dialogNodeGraph;
 
-        void Start()
+        public void StartDialog()
         {
+            dialogBehaviour.gameObject.SetActive(true);
             dialogBehaviour.StartDialog(dialogNodeGraph);
         }
     }

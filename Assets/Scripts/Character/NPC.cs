@@ -7,5 +7,24 @@ namespace SOS.AndrewsAdventure.Character
     public class NPC : Character
     {
 
+        private NPCDialog npcDialog;
+
+        void Start()
+        {
+            npcDialog = GetComponent<NPCDialog>();
+        }
+
+        void Update()
+        {
+            if (Input.GetKeyDown(KeyCode.P))
+            {
+                StartDialog();
+            }
+        }
+
+        public void StartDialog()
+        {
+            npcDialog.StartDialog();
+        }
     }
 }
