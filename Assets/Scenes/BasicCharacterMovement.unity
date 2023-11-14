@@ -246,7 +246,7 @@ GameObject:
   - component: {fileID: 143315101}
   - component: {fileID: 143315104}
   m_Layer: 0
-  m_Name: Player
+  m_Name: The Original Andrew
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -753,7 +753,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5105497283239488713, guid: 61a2e24a7f86bc543ae4e82bbb7e1e74, type: 3}
       propertyPath: m_Name
-      value: Spike (1)
+      value: Spike
       objectReference: {fileID: 0}
     - target: {fileID: 5719900892643601098, guid: 61a2e24a7f86bc543ae4e82bbb7e1e74, type: 3}
       propertyPath: m_Mesh
@@ -1248,7 +1248,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5105497283239488713, guid: 61a2e24a7f86bc543ae4e82bbb7e1e74, type: 3}
       propertyPath: m_Name
-      value: Spike
+      value: The ACTUAL first spike
       objectReference: {fileID: 0}
     - target: {fileID: 5719900892643601098, guid: 61a2e24a7f86bc543ae4e82bbb7e1e74, type: 3}
       propertyPath: m_Mesh
