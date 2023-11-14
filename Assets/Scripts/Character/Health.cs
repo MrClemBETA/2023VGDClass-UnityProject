@@ -8,13 +8,45 @@ namespace SOS.AndrewsAdventure.Character
         [Min(10)]
         [SerializeField] public int maxHealth = 10;
         [SerializeField] int health;
-        [SerializeField] int maxiframes = 100;
-        private int iframes = 0;
-        
+        [SerializeField] float invincibilityTime = 1f;
+        [SerializeField] float flashTime = .1f;
+
+        private MeshRenderer mRenderer;
+        private float elapsedITime = 0f;
+        private float elapsedFlashTime = 0f;
+        private bool isInvincible = false;
+        private bool isRendered = true;
 
         void Start()
         {
             health = maxHealth;
+            mRenderer = GetComponent<MeshRenderer>();
+        }
+
+        void Update()
+        {
+            // Invincibility
+            if(isInvincible)
+            {
+                elapsedITime += Time.deltaTime;
+                elapsedFlashTime += Time.deltaTime;
+
+                if(elapsedFlashTime > flashTime)
+                {
+                    isRendered = !isRendered;
+                    mRenderer.enabled = isRendered;
+                    elapsedFlashTime = 0f;
+                }
+
+                // End invincibility
+                if(elapsedITime > invincibilityTime)
+                {
+                    isInvincible = false;
+                    elapsedITime = 0;
+                    mRenderer.enabled = true;
+                    isRendered = true;
+                }
+            }
         }
 
         public void Heal(int health)
@@ -22,21 +54,16 @@ namespace SOS.AndrewsAdventure.Character
             this.health = Mathf.Min(maxHealth, this.health + health);
         }
 
-        public void TakeDamage(int trapDamage)
+        public void TakeDamage(int damage)
         {
-            int maxiframes = 100;
-            print(iframes);
-            print("Health: " + health);
-            if (iframes == 0)
+            if (!isInvincible)
             {
-                this.health = Mathf.Max(0, this.health - trapDamage);
-                iframes = maxiframes * OverworldDamage.numberOfTrapsTouched;
+                isInvincible = true;
+                isRendered = false;
+                mRenderer.enabled = false;
+
+                health = Mathf.Max(0, health - damage);
             }
-            else
-            {
-                iframes -= 1;
-            }
-            
         }
     }
 }
