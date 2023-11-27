@@ -182,5 +182,10 @@ namespace cherrydev
         {
             onDialogFinished.AddListener(action);
         }
+
+        public void RemoveListenerFromOnDialogFinished(UnityAction action)
+        {
+            onDialogFinished.RemoveListener(action);
+        }
     }
 }
