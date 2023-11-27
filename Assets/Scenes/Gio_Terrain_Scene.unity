@@ -129,7 +129,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 185962, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
       propertyPath: m_Name
@@ -137,6 +141,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 437750, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: -40.357826
       objectReference: {fileID: 0}
     - target: {fileID: 437750, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
@@ -146,6 +151,17 @@ PrefabInstance:
     - target: {fileID: 437750, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
       propertyPath: m_LocalPosition.z
       value: 179.4022
+========
+      value: -46.490166
+      objectReference: {fileID: 0}
+    - target: {fileID: 437750, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -5.9496136
+      objectReference: {fileID: 0}
+    - target: {fileID: 437750, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 61.29471
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 437750, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -191,7 +207,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 110776, guid: 63ff2386a1262d64f99de6e3e1183874, type: 3}
       propertyPath: m_Name
@@ -199,6 +219,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 490634, guid: 63ff2386a1262d64f99de6e3e1183874, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: -102.67241
       objectReference: {fileID: 0}
     - target: {fileID: 490634, guid: 63ff2386a1262d64f99de6e3e1183874, type: 3}
@@ -208,6 +229,17 @@ PrefabInstance:
     - target: {fileID: 490634, guid: 63ff2386a1262d64f99de6e3e1183874, type: 3}
       propertyPath: m_LocalPosition.z
       value: 75.83844
+========
+      value: -108.80475
+      objectReference: {fileID: 0}
+    - target: {fileID: 490634, guid: 63ff2386a1262d64f99de6e3e1183874, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.6855068
+      objectReference: {fileID: 0}
+    - target: {fileID: 490634, guid: 63ff2386a1262d64f99de6e3e1183874, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -42.26905
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 490634, guid: 63ff2386a1262d64f99de6e3e1183874, type: 3}
       propertyPath: m_LocalRotation.w
@@ -253,7 +285,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 185962, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
       propertyPath: m_Name
@@ -261,6 +297,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 437750, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: 24.320938
       objectReference: {fileID: 0}
     - target: {fileID: 437750, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
@@ -270,6 +307,17 @@ PrefabInstance:
     - target: {fileID: 437750, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
       propertyPath: m_LocalPosition.z
       value: 179.60182
+========
+      value: 18.188599
+      objectReference: {fileID: 0}
+    - target: {fileID: 437750, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -7.0098095
+      objectReference: {fileID: 0}
+    - target: {fileID: 437750, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 61.494324
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 437750, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -315,7 +363,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 185962, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
       propertyPath: m_Name
@@ -323,6 +375,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 437750, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: -75.52576
       objectReference: {fileID: 0}
     - target: {fileID: 437750, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
@@ -332,6 +385,17 @@ PrefabInstance:
     - target: {fileID: 437750, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
       propertyPath: m_LocalPosition.z
       value: 63.860886
+========
+      value: -81.6581
+      objectReference: {fileID: 0}
+    - target: {fileID: 437750, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.70796394
+      objectReference: {fileID: 0}
+    - target: {fileID: 437750, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -54.246605
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 437750, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -471,7 +535,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 1000012046549718, guid: e59189dc53391154ba8d5468f263e319, type: 3}
       propertyPath: m_Name
@@ -479,6 +547,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000012447238448, guid: e59189dc53391154ba8d5468f263e319, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: 5.4982147
       objectReference: {fileID: 0}
     - target: {fileID: 4000012447238448, guid: e59189dc53391154ba8d5468f263e319, type: 3}
@@ -488,6 +557,17 @@ PrefabInstance:
     - target: {fileID: 4000012447238448, guid: e59189dc53391154ba8d5468f263e319, type: 3}
       propertyPath: m_LocalPosition.z
       value: 10.995611
+========
+      value: -0.63412476
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012447238448, guid: e59189dc53391154ba8d5468f263e319, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.0683727
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012447238448, guid: e59189dc53391154ba8d5468f263e319, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -107.11188
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 4000012447238448, guid: e59189dc53391154ba8d5468f263e319, type: 3}
       propertyPath: m_LocalRotation.w
@@ -533,7 +613,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 145826, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
       propertyPath: m_Name
@@ -541,6 +625,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 406880, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: -98.61806
       objectReference: {fileID: 0}
     - target: {fileID: 406880, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
@@ -550,6 +635,17 @@ PrefabInstance:
     - target: {fileID: 406880, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
       propertyPath: m_LocalPosition.z
       value: 62.0496
+========
+      value: -104.7504
+      objectReference: {fileID: 0}
+    - target: {fileID: 406880, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.98768806
+      objectReference: {fileID: 0}
+    - target: {fileID: 406880, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -56.05789
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 406880, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
       propertyPath: m_LocalRotation.w
@@ -595,7 +691,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 1000010390738104, guid: 09c2ce84a75b3324fb5c689e5ac6ce7e, type: 3}
       propertyPath: m_Name
@@ -603,6 +703,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000012333492518, guid: 09c2ce84a75b3324fb5c689e5ac6ce7e, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: -34.67134
       objectReference: {fileID: 0}
     - target: {fileID: 4000012333492518, guid: 09c2ce84a75b3324fb5c689e5ac6ce7e, type: 3}
@@ -612,6 +713,17 @@ PrefabInstance:
     - target: {fileID: 4000012333492518, guid: 09c2ce84a75b3324fb5c689e5ac6ce7e, type: 3}
       propertyPath: m_LocalPosition.z
       value: 44.014656
+========
+      value: -40.80368
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012333492518, guid: 09c2ce84a75b3324fb5c689e5ac6ce7e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.217947
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012333492518, guid: 09c2ce84a75b3324fb5c689e5ac6ce7e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -74.092834
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 4000012333492518, guid: 09c2ce84a75b3324fb5c689e5ac6ce7e, type: 3}
       propertyPath: m_LocalRotation.w
@@ -657,7 +769,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 1000010390738104, guid: 09c2ce84a75b3324fb5c689e5ac6ce7e, type: 3}
       propertyPath: m_Name
@@ -665,6 +781,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000012333492518, guid: 09c2ce84a75b3324fb5c689e5ac6ce7e, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: -56.787888
       objectReference: {fileID: 0}
     - target: {fileID: 4000012333492518, guid: 09c2ce84a75b3324fb5c689e5ac6ce7e, type: 3}
@@ -674,6 +791,17 @@ PrefabInstance:
     - target: {fileID: 4000012333492518, guid: 09c2ce84a75b3324fb5c689e5ac6ce7e, type: 3}
       propertyPath: m_LocalPosition.z
       value: 120.73234
+========
+      value: -62.920227
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012333492518, guid: 09c2ce84a75b3324fb5c689e5ac6ce7e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.11727333
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012333492518, guid: 09c2ce84a75b3324fb5c689e5ac6ce7e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.6248474
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 4000012333492518, guid: 09c2ce84a75b3324fb5c689e5ac6ce7e, type: 3}
       propertyPath: m_LocalRotation.w
@@ -719,7 +847,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 1000010285526238, guid: 847ad21e052823640b649f294605afb2, type: 3}
       propertyPath: m_Name
@@ -727,6 +859,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000011488240504, guid: 847ad21e052823640b649f294605afb2, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: 5.9217224
       objectReference: {fileID: 0}
     - target: {fileID: 4000011488240504, guid: 847ad21e052823640b649f294605afb2, type: 3}
@@ -736,6 +869,17 @@ PrefabInstance:
     - target: {fileID: 4000011488240504, guid: 847ad21e052823640b649f294605afb2, type: 3}
       propertyPath: m_LocalPosition.z
       value: 43.34527
+========
+      value: -0.21061707
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011488240504, guid: 847ad21e052823640b649f294605afb2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.9781704
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011488240504, guid: 847ad21e052823640b649f294605afb2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -74.76222
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 4000011488240504, guid: 847ad21e052823640b649f294605afb2, type: 3}
       propertyPath: m_LocalRotation.w
@@ -781,7 +925,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 110776, guid: 63ff2386a1262d64f99de6e3e1183874, type: 3}
       propertyPath: m_Name
@@ -789,6 +937,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 490634, guid: 63ff2386a1262d64f99de6e3e1183874, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: 87.06813
       objectReference: {fileID: 0}
     - target: {fileID: 490634, guid: 63ff2386a1262d64f99de6e3e1183874, type: 3}
@@ -798,6 +947,17 @@ PrefabInstance:
     - target: {fileID: 490634, guid: 63ff2386a1262d64f99de6e3e1183874, type: 3}
       propertyPath: m_LocalPosition.z
       value: 74.044
+========
+      value: 80.93579
+      objectReference: {fileID: 0}
+    - target: {fileID: 490634, guid: 63ff2386a1262d64f99de6e3e1183874, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.9063473
+      objectReference: {fileID: 0}
+    - target: {fileID: 490634, guid: 63ff2386a1262d64f99de6e3e1183874, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -44.06349
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 490634, guid: 63ff2386a1262d64f99de6e3e1183874, type: 3}
       propertyPath: m_LocalRotation.w
@@ -908,7 +1068,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 1000010390738104, guid: 09c2ce84a75b3324fb5c689e5ac6ce7e, type: 3}
       propertyPath: m_Name
@@ -916,6 +1080,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000012333492518, guid: 09c2ce84a75b3324fb5c689e5ac6ce7e, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: -91.37884
       objectReference: {fileID: 0}
     - target: {fileID: 4000012333492518, guid: 09c2ce84a75b3324fb5c689e5ac6ce7e, type: 3}
@@ -925,6 +1090,17 @@ PrefabInstance:
     - target: {fileID: 4000012333492518, guid: 09c2ce84a75b3324fb5c689e5ac6ce7e, type: 3}
       propertyPath: m_LocalPosition.z
       value: 5.252928
+========
+      value: -97.51118
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012333492518, guid: 09c2ce84a75b3324fb5c689e5ac6ce7e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5.4031544
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012333492518, guid: 09c2ce84a75b3324fb5c689e5ac6ce7e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -112.85457
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 4000012333492518, guid: 09c2ce84a75b3324fb5c689e5ac6ce7e, type: 3}
       propertyPath: m_LocalRotation.w
@@ -970,7 +1146,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 124032, guid: 45b8cac9ed2e6a142ae411672ba866f9, type: 3}
       propertyPath: m_Name
@@ -978,6 +1158,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 403214, guid: 45b8cac9ed2e6a142ae411672ba866f9, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: 29.19957
       objectReference: {fileID: 0}
     - target: {fileID: 403214, guid: 45b8cac9ed2e6a142ae411672ba866f9, type: 3}
@@ -987,6 +1168,17 @@ PrefabInstance:
     - target: {fileID: 403214, guid: 45b8cac9ed2e6a142ae411672ba866f9, type: 3}
       propertyPath: m_LocalPosition.z
       value: 144.12369
+========
+      value: 23.06723
+      objectReference: {fileID: 0}
+    - target: {fileID: 403214, guid: 45b8cac9ed2e6a142ae411672ba866f9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.6525707
+      objectReference: {fileID: 0}
+    - target: {fileID: 403214, guid: 45b8cac9ed2e6a142ae411672ba866f9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 26.01619
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 403214, guid: 45b8cac9ed2e6a142ae411672ba866f9, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1032,7 +1224,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 1000012089989546, guid: ce2146ce387403f49849aab35d406dbd, type: 3}
       propertyPath: m_Name
@@ -1040,6 +1236,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000012181423232, guid: ce2146ce387403f49849aab35d406dbd, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: -22.415192
       objectReference: {fileID: 0}
     - target: {fileID: 4000012181423232, guid: ce2146ce387403f49849aab35d406dbd, type: 3}
@@ -1049,6 +1246,17 @@ PrefabInstance:
     - target: {fileID: 4000012181423232, guid: ce2146ce387403f49849aab35d406dbd, type: 3}
       propertyPath: m_LocalPosition.z
       value: 22.298002
+========
+      value: -28.547531
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012181423232, guid: ce2146ce387403f49849aab35d406dbd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -5.3020763
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012181423232, guid: ce2146ce387403f49849aab35d406dbd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -95.809494
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 4000012181423232, guid: ce2146ce387403f49849aab35d406dbd, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1094,7 +1302,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 145826, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
       propertyPath: m_Name
@@ -1102,6 +1314,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 406880, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: -68.994484
       objectReference: {fileID: 0}
     - target: {fileID: 406880, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
@@ -1111,6 +1324,17 @@ PrefabInstance:
     - target: {fileID: 406880, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
       propertyPath: m_LocalPosition.z
       value: 9.241915
+========
+      value: -75.12682
+      objectReference: {fileID: 0}
+    - target: {fileID: 406880, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.9105587
+      objectReference: {fileID: 0}
+    - target: {fileID: 406880, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -108.86558
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 406880, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1156,7 +1380,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 145164, guid: 8b8681c086a094348955216d4ef3cf0f, type: 3}
       propertyPath: m_Name
@@ -1164,6 +1392,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 447314, guid: 8b8681c086a094348955216d4ef3cf0f, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: 22.605103
       objectReference: {fileID: 0}
     - target: {fileID: 447314, guid: 8b8681c086a094348955216d4ef3cf0f, type: 3}
@@ -1173,6 +1402,17 @@ PrefabInstance:
     - target: {fileID: 447314, guid: 8b8681c086a094348955216d4ef3cf0f, type: 3}
       propertyPath: m_LocalPosition.z
       value: -21.364494
+========
+      value: 16.472763
+      objectReference: {fileID: 0}
+    - target: {fileID: 447314, guid: 8b8681c086a094348955216d4ef3cf0f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.8507748
+      objectReference: {fileID: 0}
+    - target: {fileID: 447314, guid: 8b8681c086a094348955216d4ef3cf0f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -139.47198
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 447314, guid: 8b8681c086a094348955216d4ef3cf0f, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1218,7 +1458,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 100000, guid: 5d68287dfd7269a46bdafd483e2a0426, type: 3}
       propertyPath: m_Name
@@ -1226,6 +1470,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5d68287dfd7269a46bdafd483e2a0426, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: 108.133545
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5d68287dfd7269a46bdafd483e2a0426, type: 3}
@@ -1235,6 +1480,17 @@ PrefabInstance:
     - target: {fileID: 400000, guid: 5d68287dfd7269a46bdafd483e2a0426, type: 3}
       propertyPath: m_LocalPosition.z
       value: 223.91096
+========
+      value: 102.001205
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5d68287dfd7269a46bdafd483e2a0426, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.470129
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5d68287dfd7269a46bdafd483e2a0426, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 105.80347
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5d68287dfd7269a46bdafd483e2a0426, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1280,7 +1536,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 145826, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
       propertyPath: m_Name
@@ -1288,6 +1548,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 406880, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: 21.402359
       objectReference: {fileID: 0}
     - target: {fileID: 406880, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
@@ -1297,6 +1558,17 @@ PrefabInstance:
     - target: {fileID: 406880, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
       propertyPath: m_LocalPosition.z
       value: 25.328497
+========
+      value: 15.27002
+      objectReference: {fileID: 0}
+    - target: {fileID: 406880, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.5584812
+      objectReference: {fileID: 0}
+    - target: {fileID: 406880, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -92.77899
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 406880, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1342,7 +1614,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 110776, guid: 63ff2386a1262d64f99de6e3e1183874, type: 3}
       propertyPath: m_Name
@@ -1350,6 +1626,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 490634, guid: 63ff2386a1262d64f99de6e3e1183874, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: 37.184326
       objectReference: {fileID: 0}
     - target: {fileID: 490634, guid: 63ff2386a1262d64f99de6e3e1183874, type: 3}
@@ -1359,6 +1636,17 @@ PrefabInstance:
     - target: {fileID: 490634, guid: 63ff2386a1262d64f99de6e3e1183874, type: 3}
       propertyPath: m_LocalPosition.z
       value: 59.24604
+========
+      value: 31.051987
+      objectReference: {fileID: 0}
+    - target: {fileID: 490634, guid: 63ff2386a1262d64f99de6e3e1183874, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.939909
+      objectReference: {fileID: 0}
+    - target: {fileID: 490634, guid: 63ff2386a1262d64f99de6e3e1183874, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -58.86145
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 490634, guid: 63ff2386a1262d64f99de6e3e1183874, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1496,7 +1784,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 1000014058142462, guid: ab440feedacbd0d40aaac5abd4acd8fd, type: 3}
       propertyPath: m_Name
@@ -1504,6 +1796,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010945598816, guid: ab440feedacbd0d40aaac5abd4acd8fd, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: 11.032333
       objectReference: {fileID: 0}
     - target: {fileID: 4000010945598816, guid: ab440feedacbd0d40aaac5abd4acd8fd, type: 3}
@@ -1513,6 +1806,17 @@ PrefabInstance:
     - target: {fileID: 4000010945598816, guid: ab440feedacbd0d40aaac5abd4acd8fd, type: 3}
       propertyPath: m_LocalPosition.z
       value: 34.41897
+========
+      value: 4.899994
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000010945598816, guid: ab440feedacbd0d40aaac5abd4acd8fd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.3142452
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000010945598816, guid: ab440feedacbd0d40aaac5abd4acd8fd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -83.68852
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 4000010945598816, guid: ab440feedacbd0d40aaac5abd4acd8fd, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1558,7 +1862,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 136472, guid: e9ef501c03d9e0f4f8965162fd6bfbba, type: 3}
       propertyPath: m_Name
@@ -1566,6 +1874,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 435472, guid: e9ef501c03d9e0f4f8965162fd6bfbba, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: -22.996674
       objectReference: {fileID: 0}
     - target: {fileID: 435472, guid: e9ef501c03d9e0f4f8965162fd6bfbba, type: 3}
@@ -1575,6 +1884,17 @@ PrefabInstance:
     - target: {fileID: 435472, guid: e9ef501c03d9e0f4f8965162fd6bfbba, type: 3}
       propertyPath: m_LocalPosition.z
       value: 100.93763
+========
+      value: -29.129013
+      objectReference: {fileID: 0}
+    - target: {fileID: 435472, guid: e9ef501c03d9e0f4f8965162fd6bfbba, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.7523556
+      objectReference: {fileID: 0}
+    - target: {fileID: 435472, guid: e9ef501c03d9e0f4f8965162fd6bfbba, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -17.16986
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 435472, guid: e9ef501c03d9e0f4f8965162fd6bfbba, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1620,7 +1940,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 185962, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
       propertyPath: m_Name
@@ -1628,6 +1952,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 437750, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: 57.179794
       objectReference: {fileID: 0}
     - target: {fileID: 437750, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
@@ -1637,6 +1962,17 @@ PrefabInstance:
     - target: {fileID: 437750, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
       propertyPath: m_LocalPosition.z
       value: -22.507408
+========
+      value: 51.047455
+      objectReference: {fileID: 0}
+    - target: {fileID: 437750, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.061552048
+      objectReference: {fileID: 0}
+    - target: {fileID: 437750, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -140.6149
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 437750, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1682,7 +2018,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 163980, guid: 2fb6f5d47657319408dbd4f3e8412b4c, type: 3}
       propertyPath: m_Name
@@ -1690,6 +2030,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 433264, guid: 2fb6f5d47657319408dbd4f3e8412b4c, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: 88.50568
       objectReference: {fileID: 0}
     - target: {fileID: 433264, guid: 2fb6f5d47657319408dbd4f3e8412b4c, type: 3}
@@ -1699,6 +2040,17 @@ PrefabInstance:
     - target: {fileID: 433264, guid: 2fb6f5d47657319408dbd4f3e8412b4c, type: 3}
       propertyPath: m_LocalPosition.z
       value: 155.00536
+========
+      value: 82.37334
+      objectReference: {fileID: 0}
+    - target: {fileID: 433264, guid: 2fb6f5d47657319408dbd4f3e8412b4c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.8489437
+      objectReference: {fileID: 0}
+    - target: {fileID: 433264, guid: 2fb6f5d47657319408dbd4f3e8412b4c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 36.897858
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 433264, guid: 2fb6f5d47657319408dbd4f3e8412b4c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1744,7 +2096,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 185962, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
       propertyPath: m_Name
@@ -1752,6 +2108,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 437750, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: -80.96615
       objectReference: {fileID: 0}
     - target: {fileID: 437750, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
@@ -1761,6 +2118,17 @@ PrefabInstance:
     - target: {fileID: 437750, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
       propertyPath: m_LocalPosition.z
       value: 23.61909
+========
+      value: -87.09849
+      objectReference: {fileID: 0}
+    - target: {fileID: 437750, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.9202328
+      objectReference: {fileID: 0}
+    - target: {fileID: 437750, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -94.4884
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 437750, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1806,7 +2174,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 100000, guid: eb342f6eed94af74c8e910d8b3369c96, type: 3}
       propertyPath: m_Name
@@ -1814,6 +2186,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: eb342f6eed94af74c8e910d8b3369c96, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: 60.23291
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: eb342f6eed94af74c8e910d8b3369c96, type: 3}
@@ -1823,6 +2196,17 @@ PrefabInstance:
     - target: {fileID: 400000, guid: eb342f6eed94af74c8e910d8b3369c96, type: 3}
       propertyPath: m_LocalPosition.z
       value: 42.533943
+========
+      value: 54.10057
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: eb342f6eed94af74c8e910d8b3369c96, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.244917
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: eb342f6eed94af74c8e910d8b3369c96, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -75.57355
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: eb342f6eed94af74c8e910d8b3369c96, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1868,7 +2252,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 100000, guid: 5d68287dfd7269a46bdafd483e2a0426, type: 3}
       propertyPath: m_Name
@@ -1876,6 +2264,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5d68287dfd7269a46bdafd483e2a0426, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: -123.618614
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5d68287dfd7269a46bdafd483e2a0426, type: 3}
@@ -1885,6 +2274,17 @@ PrefabInstance:
     - target: {fileID: 400000, guid: 5d68287dfd7269a46bdafd483e2a0426, type: 3}
       propertyPath: m_LocalPosition.z
       value: 61.683853
+========
+      value: -129.75095
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5d68287dfd7269a46bdafd483e2a0426, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.8813038
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5d68287dfd7269a46bdafd483e2a0426, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -56.423637
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5d68287dfd7269a46bdafd483e2a0426, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1930,7 +2330,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 100000, guid: 5d68287dfd7269a46bdafd483e2a0426, type: 3}
       propertyPath: m_Name
@@ -1938,6 +2342,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5d68287dfd7269a46bdafd483e2a0426, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: 97.25148
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5d68287dfd7269a46bdafd483e2a0426, type: 3}
@@ -1947,6 +2352,17 @@ PrefabInstance:
     - target: {fileID: 400000, guid: 5d68287dfd7269a46bdafd483e2a0426, type: 3}
       propertyPath: m_LocalPosition.z
       value: 8.147516
+========
+      value: 91.11914
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5d68287dfd7269a46bdafd483e2a0426, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -5.7343884
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5d68287dfd7269a46bdafd483e2a0426, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -109.95998
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5d68287dfd7269a46bdafd483e2a0426, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1992,7 +2408,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 1000013553030096, guid: d6238962ede8add4b877e688a0620c24, type: 3}
       propertyPath: m_Name
@@ -2000,6 +2420,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000012789593826, guid: d6238962ede8add4b877e688a0620c24, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: -92.083954
       objectReference: {fileID: 0}
     - target: {fileID: 4000012789593826, guid: d6238962ede8add4b877e688a0620c24, type: 3}
@@ -2009,6 +2430,17 @@ PrefabInstance:
     - target: {fileID: 4000012789593826, guid: d6238962ede8add4b877e688a0620c24, type: 3}
       propertyPath: m_LocalPosition.z
       value: 72.734474
+========
+      value: -98.21629
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012789593826, guid: d6238962ede8add4b877e688a0620c24, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.2898693
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012789593826, guid: d6238962ede8add4b877e688a0620c24, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -45.373016
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 4000012789593826, guid: d6238962ede8add4b877e688a0620c24, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2054,7 +2486,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 1000010390738104, guid: 09c2ce84a75b3324fb5c689e5ac6ce7e, type: 3}
       propertyPath: m_Name
@@ -2062,6 +2498,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000012333492518, guid: 09c2ce84a75b3324fb5c689e5ac6ce7e, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: -35.20124
       objectReference: {fileID: 0}
     - target: {fileID: 4000012333492518, guid: 09c2ce84a75b3324fb5c689e5ac6ce7e, type: 3}
@@ -2071,6 +2508,17 @@ PrefabInstance:
     - target: {fileID: 4000012333492518, guid: 09c2ce84a75b3324fb5c689e5ac6ce7e, type: 3}
       propertyPath: m_LocalPosition.z
       value: -16.743288
+========
+      value: -41.33358
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012333492518, guid: 09c2ce84a75b3324fb5c689e5ac6ce7e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.09248543
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012333492518, guid: 09c2ce84a75b3324fb5c689e5ac6ce7e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -134.85078
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 4000012333492518, guid: 09c2ce84a75b3324fb5c689e5ac6ce7e, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2116,7 +2564,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 100000, guid: e7464e6962c79794bbfcdb1d60ea5cd1, type: 3}
       propertyPath: m_Name
@@ -2124,6 +2576,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7464e6962c79794bbfcdb1d60ea5cd1, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: 92.99138
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7464e6962c79794bbfcdb1d60ea5cd1, type: 3}
@@ -2133,6 +2586,17 @@ PrefabInstance:
     - target: {fileID: 400000, guid: e7464e6962c79794bbfcdb1d60ea5cd1, type: 3}
       propertyPath: m_LocalPosition.z
       value: -14.078499
+========
+      value: 86.85904
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: e7464e6962c79794bbfcdb1d60ea5cd1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.602522
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: e7464e6962c79794bbfcdb1d60ea5cd1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -132.18599
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7464e6962c79794bbfcdb1d60ea5cd1, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2178,7 +2642,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 145826, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
       propertyPath: m_Name
@@ -2186,6 +2654,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 406880, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: -90.62257
       objectReference: {fileID: 0}
     - target: {fileID: 406880, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
@@ -2195,6 +2664,17 @@ PrefabInstance:
     - target: {fileID: 406880, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
       propertyPath: m_LocalPosition.z
       value: 107.51342
+========
+      value: -96.754906
+      objectReference: {fileID: 0}
+    - target: {fileID: 406880, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.2786236
+      objectReference: {fileID: 0}
+    - target: {fileID: 406880, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -10.59407
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 406880, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2240,7 +2720,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 1000010390738104, guid: 09c2ce84a75b3324fb5c689e5ac6ce7e, type: 3}
       propertyPath: m_Name
@@ -2248,6 +2732,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000012333492518, guid: 09c2ce84a75b3324fb5c689e5ac6ce7e, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: -8.168137
       objectReference: {fileID: 0}
     - target: {fileID: 4000012333492518, guid: 09c2ce84a75b3324fb5c689e5ac6ce7e, type: 3}
@@ -2257,6 +2742,17 @@ PrefabInstance:
     - target: {fileID: 4000012333492518, guid: 09c2ce84a75b3324fb5c689e5ac6ce7e, type: 3}
       propertyPath: m_LocalPosition.z
       value: 49.36284
+========
+      value: -14.300476
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012333492518, guid: 09c2ce84a75b3324fb5c689e5ac6ce7e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -5.0711193
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012333492518, guid: 09c2ce84a75b3324fb5c689e5ac6ce7e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -68.74465
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 4000012333492518, guid: 09c2ce84a75b3324fb5c689e5ac6ce7e, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2302,7 +2798,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 1000014058142462, guid: ab440feedacbd0d40aaac5abd4acd8fd, type: 3}
       propertyPath: m_Name
@@ -2310,6 +2810,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010945598816, guid: ab440feedacbd0d40aaac5abd4acd8fd, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: -66.08185
       objectReference: {fileID: 0}
     - target: {fileID: 4000010945598816, guid: ab440feedacbd0d40aaac5abd4acd8fd, type: 3}
@@ -2319,6 +2820,17 @@ PrefabInstance:
     - target: {fileID: 4000010945598816, guid: ab440feedacbd0d40aaac5abd4acd8fd, type: 3}
       propertyPath: m_LocalPosition.z
       value: 30.766443
+========
+      value: -72.21419
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000010945598816, guid: ab440feedacbd0d40aaac5abd4acd8fd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.9651165
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000010945598816, guid: ab440feedacbd0d40aaac5abd4acd8fd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -87.34105
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 4000010945598816, guid: ab440feedacbd0d40aaac5abd4acd8fd, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2364,7 +2876,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 145826, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
       propertyPath: m_Name
@@ -2372,6 +2888,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 406880, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: -24.757248
       objectReference: {fileID: 0}
     - target: {fileID: 406880, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
@@ -2381,6 +2898,17 @@ PrefabInstance:
     - target: {fileID: 406880, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
       propertyPath: m_LocalPosition.z
       value: -28.992508
+========
+      value: -30.889587
+      objectReference: {fileID: 0}
+    - target: {fileID: 406880, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -5.5651164
+      objectReference: {fileID: 0}
+    - target: {fileID: 406880, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -147.1
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 406880, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2426,7 +2954,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 100000, guid: 5d68287dfd7269a46bdafd483e2a0426, type: 3}
       propertyPath: m_Name
@@ -2434,6 +2966,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5d68287dfd7269a46bdafd483e2a0426, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: 9.204346
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5d68287dfd7269a46bdafd483e2a0426, type: 3}
@@ -2443,6 +2976,17 @@ PrefabInstance:
     - target: {fileID: 400000, guid: 5d68287dfd7269a46bdafd483e2a0426, type: 3}
       propertyPath: m_LocalPosition.z
       value: -27.467382
+========
+      value: 3.0720062
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5d68287dfd7269a46bdafd483e2a0426, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.4171047
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5d68287dfd7269a46bdafd483e2a0426, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -145.57487
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5d68287dfd7269a46bdafd483e2a0426, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2615,7 +3159,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 1000014225362746, guid: a41a0379b3d57cd47984f898fd2c7059, type: 3}
       propertyPath: m_Name
@@ -2623,6 +3171,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000012622637596, guid: a41a0379b3d57cd47984f898fd2c7059, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: -37.669197
       objectReference: {fileID: 0}
     - target: {fileID: 4000012622637596, guid: a41a0379b3d57cd47984f898fd2c7059, type: 3}
@@ -2632,6 +3181,17 @@ PrefabInstance:
     - target: {fileID: 4000012622637596, guid: a41a0379b3d57cd47984f898fd2c7059, type: 3}
       propertyPath: m_LocalPosition.z
       value: 60.77774
+========
+      value: -43.801537
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012622637596, guid: a41a0379b3d57cd47984f898fd2c7059, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.7347164
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012622637596, guid: a41a0379b3d57cd47984f898fd2c7059, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -57.32975
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 4000012622637596, guid: a41a0379b3d57cd47984f898fd2c7059, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2677,7 +3237,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 185962, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
       propertyPath: m_Name
@@ -2685,6 +3249,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 437750, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: -20.037766
       objectReference: {fileID: 0}
     - target: {fileID: 437750, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
@@ -2694,6 +3259,17 @@ PrefabInstance:
     - target: {fileID: 437750, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
       propertyPath: m_LocalPosition.z
       value: 132.83386
+========
+      value: -26.170105
+      objectReference: {fileID: 0}
+    - target: {fileID: 437750, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.0649166
+      objectReference: {fileID: 0}
+    - target: {fileID: 437750, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 14.726364
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 437750, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2739,7 +3315,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 1000013239581964, guid: 79c5ef9a988048c488045c56407768ce, type: 3}
       propertyPath: m_Name
@@ -2747,6 +3327,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010649076558, guid: 79c5ef9a988048c488045c56407768ce, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: -16.086105
       objectReference: {fileID: 0}
     - target: {fileID: 4000010649076558, guid: 79c5ef9a988048c488045c56407768ce, type: 3}
@@ -2756,6 +3337,17 @@ PrefabInstance:
     - target: {fileID: 4000010649076558, guid: 79c5ef9a988048c488045c56407768ce, type: 3}
       propertyPath: m_LocalPosition.z
       value: 5.7317677
+========
+      value: -22.218445
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000010649076558, guid: 79c5ef9a988048c488045c56407768ce, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.679968
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000010649076558, guid: 79c5ef9a988048c488045c56407768ce, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -112.375725
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 4000010649076558, guid: 79c5ef9a988048c488045c56407768ce, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2801,7 +3393,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 110776, guid: 63ff2386a1262d64f99de6e3e1183874, type: 3}
       propertyPath: m_Name
@@ -2809,6 +3405,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 490634, guid: 63ff2386a1262d64f99de6e3e1183874, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: -46.2155
       objectReference: {fileID: 0}
     - target: {fileID: 490634, guid: 63ff2386a1262d64f99de6e3e1183874, type: 3}
@@ -2818,6 +3415,17 @@ PrefabInstance:
     - target: {fileID: 490634, guid: 63ff2386a1262d64f99de6e3e1183874, type: 3}
       propertyPath: m_LocalPosition.z
       value: 53.152138
+========
+      value: -52.34784
+      objectReference: {fileID: 0}
+    - target: {fileID: 490634, guid: 63ff2386a1262d64f99de6e3e1183874, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.8749523
+      objectReference: {fileID: 0}
+    - target: {fileID: 490634, guid: 63ff2386a1262d64f99de6e3e1183874, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -64.95535
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 490634, guid: 63ff2386a1262d64f99de6e3e1183874, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2863,7 +3471,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 145826, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
       propertyPath: m_Name
@@ -2871,6 +3483,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 406880, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: 60.179718
       objectReference: {fileID: 0}
     - target: {fileID: 406880, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
@@ -2880,6 +3493,17 @@ PrefabInstance:
     - target: {fileID: 406880, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
       propertyPath: m_LocalPosition.z
       value: 65.61023
+========
+      value: 54.04738
+      objectReference: {fileID: 0}
+    - target: {fileID: 406880, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.091890335
+      objectReference: {fileID: 0}
+    - target: {fileID: 406880, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -52.49726
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 406880, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2925,7 +3549,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 1000013553030096, guid: d6238962ede8add4b877e688a0620c24, type: 3}
       propertyPath: m_Name
@@ -2933,6 +3561,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000012789593826, guid: d6238962ede8add4b877e688a0620c24, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: 23.834122
       objectReference: {fileID: 0}
     - target: {fileID: 4000012789593826, guid: d6238962ede8add4b877e688a0620c24, type: 3}
@@ -2942,6 +3571,17 @@ PrefabInstance:
     - target: {fileID: 4000012789593826, guid: d6238962ede8add4b877e688a0620c24, type: 3}
       propertyPath: m_LocalPosition.z
       value: 81.43418
+========
+      value: 17.701782
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012789593826, guid: d6238962ede8add4b877e688a0620c24, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.096739
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012789593826, guid: d6238962ede8add4b877e688a0620c24, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -36.67331
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 4000012789593826, guid: d6238962ede8add4b877e688a0620c24, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2987,7 +3627,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 1000010780680120, guid: 3e21f0d87380e8a4ab812ed8ecaf90be, type: 3}
       propertyPath: m_Name
@@ -2995,6 +3639,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000012489837478, guid: 3e21f0d87380e8a4ab812ed8ecaf90be, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: -13.66748
       objectReference: {fileID: 0}
     - target: {fileID: 4000012489837478, guid: 3e21f0d87380e8a4ab812ed8ecaf90be, type: 3}
@@ -3004,6 +3649,17 @@ PrefabInstance:
     - target: {fileID: 4000012489837478, guid: 3e21f0d87380e8a4ab812ed8ecaf90be, type: 3}
       propertyPath: m_LocalPosition.z
       value: 28.029856
+========
+      value: -19.79982
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012489837478, guid: 3e21f0d87380e8a4ab812ed8ecaf90be, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.5599804
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012489837478, guid: 3e21f0d87380e8a4ab812ed8ecaf90be, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -90.07764
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 4000012489837478, guid: 3e21f0d87380e8a4ab812ed8ecaf90be, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3049,7 +3705,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 185962, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
       propertyPath: m_Name
@@ -3057,6 +3717,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 437750, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: 5.177063
       objectReference: {fileID: 0}
     - target: {fileID: 437750, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
@@ -3066,6 +3727,17 @@ PrefabInstance:
     - target: {fileID: 437750, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
       propertyPath: m_LocalPosition.z
       value: 117.33784
+========
+      value: -0.9552765
+      objectReference: {fileID: 0}
+    - target: {fileID: 437750, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.2387295
+      objectReference: {fileID: 0}
+    - target: {fileID: 437750, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.7696533
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 437750, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3105,6 +3777,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 437750, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
   m_PrefabInstance: {fileID: 856344088}
   m_PrefabAsset: {fileID: 0}
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
 --- !u!1 &889094163
 GameObject:
   m_ObjectHideFlags: 0
@@ -3184,13 +3857,19 @@ Transform:
   - {fileID: 1766852416}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+========
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
 --- !u!1001 &932491911
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 1000010390738104, guid: 09c2ce84a75b3324fb5c689e5ac6ce7e, type: 3}
       propertyPath: m_Name
@@ -3198,6 +3877,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000012333492518, guid: 09c2ce84a75b3324fb5c689e5ac6ce7e, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: 83.41411
       objectReference: {fileID: 0}
     - target: {fileID: 4000012333492518, guid: 09c2ce84a75b3324fb5c689e5ac6ce7e, type: 3}
@@ -3207,6 +3887,17 @@ PrefabInstance:
     - target: {fileID: 4000012333492518, guid: 09c2ce84a75b3324fb5c689e5ac6ce7e, type: 3}
       propertyPath: m_LocalPosition.z
       value: 50.488136
+========
+      value: 77.28177
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012333492518, guid: 09c2ce84a75b3324fb5c689e5ac6ce7e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.116041
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012333492518, guid: 09c2ce84a75b3324fb5c689e5ac6ce7e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -67.619354
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 4000012333492518, guid: 09c2ce84a75b3324fb5c689e5ac6ce7e, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3252,7 +3943,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 145826, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
       propertyPath: m_Name
@@ -3260,6 +3955,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 406880, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: 79.582184
       objectReference: {fileID: 0}
     - target: {fileID: 406880, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
@@ -3269,6 +3965,17 @@ PrefabInstance:
     - target: {fileID: 406880, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
       propertyPath: m_LocalPosition.z
       value: 18.962969
+========
+      value: 73.449844
+      objectReference: {fileID: 0}
+    - target: {fileID: 406880, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -6.339117
+      objectReference: {fileID: 0}
+    - target: {fileID: 406880, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -99.14452
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 406880, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3314,7 +4021,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 1000013736168662, guid: 7678334d479da9f4db360c7af983357d, type: 3}
       propertyPath: m_Name
@@ -3322,6 +4033,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010536569918, guid: 7678334d479da9f4db360c7af983357d, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: -6.833542
       objectReference: {fileID: 0}
     - target: {fileID: 4000010536569918, guid: 7678334d479da9f4db360c7af983357d, type: 3}
@@ -3331,6 +4043,17 @@ PrefabInstance:
     - target: {fileID: 4000010536569918, guid: 7678334d479da9f4db360c7af983357d, type: 3}
       propertyPath: m_LocalPosition.z
       value: 19.802507
+========
+      value: -12.965881
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000010536569918, guid: 7678334d479da9f4db360c7af983357d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.0393581
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000010536569918, guid: 7678334d479da9f4db360c7af983357d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -98.304985
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 4000010536569918, guid: 7678334d479da9f4db360c7af983357d, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3376,7 +4099,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 1000013553030096, guid: d6238962ede8add4b877e688a0620c24, type: 3}
       propertyPath: m_Name
@@ -3384,6 +4111,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000012789593826, guid: d6238962ede8add4b877e688a0620c24, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: -42.34159
       objectReference: {fileID: 0}
     - target: {fileID: 4000012789593826, guid: d6238962ede8add4b877e688a0620c24, type: 3}
@@ -3393,6 +4121,17 @@ PrefabInstance:
     - target: {fileID: 4000012789593826, guid: d6238962ede8add4b877e688a0620c24, type: 3}
       propertyPath: m_LocalPosition.z
       value: 27.627672
+========
+      value: -48.47393
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012789593826, guid: d6238962ede8add4b877e688a0620c24, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.640234
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012789593826, guid: d6238962ede8add4b877e688a0620c24, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -90.47982
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 4000012789593826, guid: d6238962ede8add4b877e688a0620c24, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3438,7 +4177,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 185962, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
       propertyPath: m_Name
@@ -3446,6 +4189,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 437750, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: -63.354675
       objectReference: {fileID: 0}
     - target: {fileID: 437750, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
@@ -3455,6 +4199,17 @@ PrefabInstance:
     - target: {fileID: 437750, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
       propertyPath: m_LocalPosition.z
       value: -6.7645473
+========
+      value: -69.487015
+      objectReference: {fileID: 0}
+    - target: {fileID: 437750, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.114935
+      objectReference: {fileID: 0}
+    - target: {fileID: 437750, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -124.87204
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 437750, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3500,7 +4255,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_Name
@@ -3508,6 +4267,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: 118.49989
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
@@ -3517,6 +4277,17 @@ PrefabInstance:
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_LocalPosition.z
       value: -15.666588
+========
+      value: 112.36755
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.7809353
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -133.77408
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3562,7 +4333,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 100000, guid: 5d68287dfd7269a46bdafd483e2a0426, type: 3}
       propertyPath: m_Name
@@ -3570,6 +4345,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5d68287dfd7269a46bdafd483e2a0426, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: 111.34148
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5d68287dfd7269a46bdafd483e2a0426, type: 3}
@@ -3579,6 +4355,17 @@ PrefabInstance:
     - target: {fileID: 400000, guid: 5d68287dfd7269a46bdafd483e2a0426, type: 3}
       propertyPath: m_LocalPosition.z
       value: 139.81737
+========
+      value: 105.20914
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5d68287dfd7269a46bdafd483e2a0426, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -5.0954494
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5d68287dfd7269a46bdafd483e2a0426, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 21.70987
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5d68287dfd7269a46bdafd483e2a0426, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3624,7 +4411,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 1000012128009412, guid: b667959c85aac0840abd65af9a3e1517, type: 3}
       propertyPath: m_Name
@@ -3632,6 +4423,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000013496182864, guid: b667959c85aac0840abd65af9a3e1517, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: -34.13147
       objectReference: {fileID: 0}
     - target: {fileID: 4000013496182864, guid: b667959c85aac0840abd65af9a3e1517, type: 3}
@@ -3641,6 +4433,17 @@ PrefabInstance:
     - target: {fileID: 4000013496182864, guid: b667959c85aac0840abd65af9a3e1517, type: 3}
       propertyPath: m_LocalPosition.z
       value: 22.533125
+========
+      value: -40.26381
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000013496182864, guid: b667959c85aac0840abd65af9a3e1517, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.9919796
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000013496182864, guid: b667959c85aac0840abd65af9a3e1517, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -95.57437
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 4000013496182864, guid: b667959c85aac0840abd65af9a3e1517, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3686,7 +4489,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 185962, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
       propertyPath: m_Name
@@ -3694,6 +4501,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 437750, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: -30.022202
       objectReference: {fileID: 0}
     - target: {fileID: 437750, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
@@ -3703,6 +4511,17 @@ PrefabInstance:
     - target: {fileID: 437750, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
       propertyPath: m_LocalPosition.z
       value: 17.659662
+========
+      value: -36.15454
+      objectReference: {fileID: 0}
+    - target: {fileID: 437750, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -6.349989
+      objectReference: {fileID: 0}
+    - target: {fileID: 437750, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -100.44783
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 437750, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3742,7 +4561,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 437750, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
   m_PrefabInstance: {fileID: 1033439084}
   m_PrefabAsset: {fileID: 0}
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
 --- !u!1 &1036641911
+========
+--- !u!1 &1089317900
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3750,24 +4573,41 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
   - component: {fileID: 1036641912}
   m_Layer: 0
   m_Name: Scene Objects
+========
+  - component: {fileID: 1089317901}
+  m_Layer: 0
+  m_Name: Props
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
 --- !u!4 &1036641912
+========
+--- !u!4 &1089317901
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
   m_GameObject: {fileID: 1036641911}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 143.86766, y: 98.96072, z: 31.892508}
+========
+  m_GameObject: {fileID: 1089317900}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 150, y: 10.4651165, z: 150}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3892,7 +4732,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 100000, guid: 37e412f3502894c4c928d6774b0592ac, type: 3}
       propertyPath: m_Name
@@ -3900,6 +4744,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 37e412f3502894c4c928d6774b0592ac, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: 112.57594
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 37e412f3502894c4c928d6774b0592ac, type: 3}
@@ -3909,6 +4754,17 @@ PrefabInstance:
     - target: {fileID: 400000, guid: 37e412f3502894c4c928d6774b0592ac, type: 3}
       propertyPath: m_LocalPosition.z
       value: 16.151766
+========
+      value: 106.4436
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 37e412f3502894c4c928d6774b0592ac, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.9096203
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 37e412f3502894c4c928d6774b0592ac, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -101.95573
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 37e412f3502894c4c928d6774b0592ac, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3954,7 +4810,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 185962, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
       propertyPath: m_Name
@@ -3962,6 +4822,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 437750, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: -80.81448
       objectReference: {fileID: 0}
     - target: {fileID: 437750, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
@@ -3971,6 +4832,17 @@ PrefabInstance:
     - target: {fileID: 437750, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
       propertyPath: m_LocalPosition.z
       value: 134.97897
+========
+      value: -86.94682
+      objectReference: {fileID: 0}
+    - target: {fileID: 437750, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.05039406
+      objectReference: {fileID: 0}
+    - target: {fileID: 437750, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 16.871475
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 437750, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4073,7 +4945,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 136472, guid: e9ef501c03d9e0f4f8965162fd6bfbba, type: 3}
       propertyPath: m_Name
@@ -4081,6 +4957,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 435472, guid: e9ef501c03d9e0f4f8965162fd6bfbba, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: 56.154068
       objectReference: {fileID: 0}
     - target: {fileID: 435472, guid: e9ef501c03d9e0f4f8965162fd6bfbba, type: 3}
@@ -4090,6 +4967,17 @@ PrefabInstance:
     - target: {fileID: 435472, guid: e9ef501c03d9e0f4f8965162fd6bfbba, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0.4978428
+========
+      value: 50.02173
+      objectReference: {fileID: 0}
+    - target: {fileID: 435472, guid: e9ef501c03d9e0f4f8965162fd6bfbba, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.4462337
+      objectReference: {fileID: 0}
+    - target: {fileID: 435472, guid: e9ef501c03d9e0f4f8965162fd6bfbba, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -117.60965
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 435472, guid: e9ef501c03d9e0f4f8965162fd6bfbba, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4135,7 +5023,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 1000014225362746, guid: a41a0379b3d57cd47984f898fd2c7059, type: 3}
       propertyPath: m_Name
@@ -4143,6 +5035,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000012622637596, guid: a41a0379b3d57cd47984f898fd2c7059, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: -25.371574
       objectReference: {fileID: 0}
     - target: {fileID: 4000012622637596, guid: a41a0379b3d57cd47984f898fd2c7059, type: 3}
@@ -4152,6 +5045,17 @@ PrefabInstance:
     - target: {fileID: 4000012622637596, guid: a41a0379b3d57cd47984f898fd2c7059, type: 3}
       propertyPath: m_LocalPosition.z
       value: 33.511314
+========
+      value: -31.503914
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012622637596, guid: a41a0379b3d57cd47984f898fd2c7059, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.6110516
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012622637596, guid: a41a0379b3d57cd47984f898fd2c7059, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -84.596176
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 4000012622637596, guid: a41a0379b3d57cd47984f898fd2c7059, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4197,7 +5101,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 100000, guid: c4cca24570a3eb1478f1ede521f132d2, type: 3}
       propertyPath: m_Name
@@ -4205,6 +5113,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c4cca24570a3eb1478f1ede521f132d2, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: -100.99266
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c4cca24570a3eb1478f1ede521f132d2, type: 3}
@@ -4214,6 +5123,17 @@ PrefabInstance:
     - target: {fileID: 400000, guid: c4cca24570a3eb1478f1ede521f132d2, type: 3}
       propertyPath: m_LocalPosition.z
       value: -23.003279
+========
+      value: -107.125
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: c4cca24570a3eb1478f1ede521f132d2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.075491
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: c4cca24570a3eb1478f1ede521f132d2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -141.11078
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c4cca24570a3eb1478f1ede521f132d2, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4259,7 +5179,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 185962, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
       propertyPath: m_Name
@@ -4267,6 +5191,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 437750, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: -48.60637
       objectReference: {fileID: 0}
     - target: {fileID: 437750, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
@@ -4276,6 +5201,17 @@ PrefabInstance:
     - target: {fileID: 437750, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
       propertyPath: m_LocalPosition.z
       value: 92.59918
+========
+      value: -54.73871
+      objectReference: {fileID: 0}
+    - target: {fileID: 437750, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.7461224
+      objectReference: {fileID: 0}
+    - target: {fileID: 437750, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -25.508308
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 437750, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4321,7 +5257,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 110776, guid: 63ff2386a1262d64f99de6e3e1183874, type: 3}
       propertyPath: m_Name
@@ -4329,6 +5269,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 490634, guid: 63ff2386a1262d64f99de6e3e1183874, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: -102.86978
       objectReference: {fileID: 0}
     - target: {fileID: 490634, guid: 63ff2386a1262d64f99de6e3e1183874, type: 3}
@@ -4338,6 +5279,17 @@ PrefabInstance:
     - target: {fileID: 490634, guid: 63ff2386a1262d64f99de6e3e1183874, type: 3}
       propertyPath: m_LocalPosition.z
       value: 104.79478
+========
+      value: -109.00212
+      objectReference: {fileID: 0}
+    - target: {fileID: 490634, guid: 63ff2386a1262d64f99de6e3e1183874, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.466154
+      objectReference: {fileID: 0}
+    - target: {fileID: 490634, guid: 63ff2386a1262d64f99de6e3e1183874, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -13.312714
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 490634, guid: 63ff2386a1262d64f99de6e3e1183874, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4383,7 +5335,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 100000, guid: eb342f6eed94af74c8e910d8b3369c96, type: 3}
       propertyPath: m_Name
@@ -4391,6 +5347,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: eb342f6eed94af74c8e910d8b3369c96, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: 74.850845
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: eb342f6eed94af74c8e910d8b3369c96, type: 3}
@@ -4400,6 +5357,17 @@ PrefabInstance:
     - target: {fileID: 400000, guid: eb342f6eed94af74c8e910d8b3369c96, type: 3}
       propertyPath: m_LocalPosition.z
       value: 96.84696
+========
+      value: 68.718506
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: eb342f6eed94af74c8e910d8b3369c96, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.9506435
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: eb342f6eed94af74c8e910d8b3369c96, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -21.260529
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: eb342f6eed94af74c8e910d8b3369c96, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4445,7 +5413,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 1000010780680120, guid: 3e21f0d87380e8a4ab812ed8ecaf90be, type: 3}
       propertyPath: m_Name
@@ -4453,6 +5425,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000012489837478, guid: 3e21f0d87380e8a4ab812ed8ecaf90be, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: -57.350357
       objectReference: {fileID: 0}
     - target: {fileID: 4000012489837478, guid: 3e21f0d87380e8a4ab812ed8ecaf90be, type: 3}
@@ -4462,6 +5435,17 @@ PrefabInstance:
     - target: {fileID: 4000012489837478, guid: 3e21f0d87380e8a4ab812ed8ecaf90be, type: 3}
       propertyPath: m_LocalPosition.z
       value: 69.21255
+========
+      value: -63.482697
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012489837478, guid: 3e21f0d87380e8a4ab812ed8ecaf90be, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.3297024
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012489837478, guid: 3e21f0d87380e8a4ab812ed8ecaf90be, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -48.894943
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 4000012489837478, guid: 3e21f0d87380e8a4ab812ed8ecaf90be, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4507,7 +5491,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 100000, guid: eb342f6eed94af74c8e910d8b3369c96, type: 3}
       propertyPath: m_Name
@@ -4515,6 +5503,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: eb342f6eed94af74c8e910d8b3369c96, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: -83.7502
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: eb342f6eed94af74c8e910d8b3369c96, type: 3}
@@ -4524,6 +5513,17 @@ PrefabInstance:
     - target: {fileID: 400000, guid: eb342f6eed94af74c8e910d8b3369c96, type: 3}
       propertyPath: m_LocalPosition.z
       value: 50.728874
+========
+      value: -89.88254
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: eb342f6eed94af74c8e910d8b3369c96, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.8747997
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: eb342f6eed94af74c8e910d8b3369c96, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -67.37862
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: eb342f6eed94af74c8e910d8b3369c96, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4569,7 +5569,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 110776, guid: 63ff2386a1262d64f99de6e3e1183874, type: 3}
       propertyPath: m_Name
@@ -4577,6 +5581,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 490634, guid: 63ff2386a1262d64f99de6e3e1183874, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: -24.323418
       objectReference: {fileID: 0}
     - target: {fileID: 490634, guid: 63ff2386a1262d64f99de6e3e1183874, type: 3}
@@ -4586,6 +5591,17 @@ PrefabInstance:
     - target: {fileID: 490634, guid: 63ff2386a1262d64f99de6e3e1183874, type: 3}
       propertyPath: m_LocalPosition.z
       value: -22.146563
+========
+      value: -30.455757
+      objectReference: {fileID: 0}
+    - target: {fileID: 490634, guid: 63ff2386a1262d64f99de6e3e1183874, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.5353832
+      objectReference: {fileID: 0}
+    - target: {fileID: 490634, guid: 63ff2386a1262d64f99de6e3e1183874, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -140.25406
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 490634, guid: 63ff2386a1262d64f99de6e3e1183874, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4631,7 +5647,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 145826, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
       propertyPath: m_Name
@@ -4639,6 +5659,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 406880, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: -105.10445
       objectReference: {fileID: 0}
     - target: {fileID: 406880, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
@@ -4648,6 +5669,17 @@ PrefabInstance:
     - target: {fileID: 406880, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
       propertyPath: m_LocalPosition.z
       value: 172.53334
+========
+      value: -111.236786
+      objectReference: {fileID: 0}
+    - target: {fileID: 406880, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.8136044
+      objectReference: {fileID: 0}
+    - target: {fileID: 406880, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 54.425842
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 406880, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4693,7 +5725,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 145826, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
       propertyPath: m_Name
@@ -4701,6 +5737,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 406880, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: 126.999405
       objectReference: {fileID: 0}
     - target: {fileID: 406880, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
@@ -4710,6 +5747,17 @@ PrefabInstance:
     - target: {fileID: 406880, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
       propertyPath: m_LocalPosition.z
       value: 85.42486
+========
+      value: 120.867065
+      objectReference: {fileID: 0}
+    - target: {fileID: 406880, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.0884228
+      objectReference: {fileID: 0}
+    - target: {fileID: 406880, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -32.682632
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 406880, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4755,7 +5803,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 110776, guid: 63ff2386a1262d64f99de6e3e1183874, type: 3}
       propertyPath: m_Name
@@ -4763,6 +5815,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 490634, guid: 63ff2386a1262d64f99de6e3e1183874, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: 9.502441
       objectReference: {fileID: 0}
     - target: {fileID: 490634, guid: 63ff2386a1262d64f99de6e3e1183874, type: 3}
@@ -4772,6 +5825,17 @@ PrefabInstance:
     - target: {fileID: 490634, guid: 63ff2386a1262d64f99de6e3e1183874, type: 3}
       propertyPath: m_LocalPosition.z
       value: -0.76361084
+========
+      value: 3.370102
+      objectReference: {fileID: 0}
+    - target: {fileID: 490634, guid: 63ff2386a1262d64f99de6e3e1183874, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.6821423
+      objectReference: {fileID: 0}
+    - target: {fileID: 490634, guid: 63ff2386a1262d64f99de6e3e1183874, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -118.8711
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 490634, guid: 63ff2386a1262d64f99de6e3e1183874, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4817,7 +5881,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 133420, guid: 42985cb6b1fec6248bddd7b24b713466, type: 3}
       propertyPath: m_Name
@@ -4825,6 +5893,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 456462, guid: 42985cb6b1fec6248bddd7b24b713466, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: 53.036407
       objectReference: {fileID: 0}
     - target: {fileID: 456462, guid: 42985cb6b1fec6248bddd7b24b713466, type: 3}
@@ -4834,6 +5903,17 @@ PrefabInstance:
     - target: {fileID: 456462, guid: 42985cb6b1fec6248bddd7b24b713466, type: 3}
       propertyPath: m_LocalPosition.z
       value: -11.644577
+========
+      value: 46.904068
+      objectReference: {fileID: 0}
+    - target: {fileID: 456462, guid: 42985cb6b1fec6248bddd7b24b713466, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.5603199
+      objectReference: {fileID: 0}
+    - target: {fileID: 456462, guid: 42985cb6b1fec6248bddd7b24b713466, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -129.75208
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 456462, guid: 42985cb6b1fec6248bddd7b24b713466, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4879,7 +5959,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 185962, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
       propertyPath: m_Name
@@ -4887,6 +5971,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 437750, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: 2.7368317
       objectReference: {fileID: 0}
     - target: {fileID: 437750, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
@@ -4896,6 +5981,17 @@ PrefabInstance:
     - target: {fileID: 437750, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
       propertyPath: m_LocalPosition.z
       value: 86.46177
+========
+      value: -3.3955078
+      objectReference: {fileID: 0}
+    - target: {fileID: 437750, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -5.6655636
+      objectReference: {fileID: 0}
+    - target: {fileID: 437750, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -31.645721
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 437750, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4941,7 +6037,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 110776, guid: 63ff2386a1262d64f99de6e3e1183874, type: 3}
       propertyPath: m_Name
@@ -4949,6 +6049,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 490634, guid: 63ff2386a1262d64f99de6e3e1183874, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: -109.56766
       objectReference: {fileID: 0}
     - target: {fileID: 490634, guid: 63ff2386a1262d64f99de6e3e1183874, type: 3}
@@ -4958,6 +6059,17 @@ PrefabInstance:
     - target: {fileID: 490634, guid: 63ff2386a1262d64f99de6e3e1183874, type: 3}
       propertyPath: m_LocalPosition.z
       value: 14.793356
+========
+      value: -115.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 490634, guid: 63ff2386a1262d64f99de6e3e1183874, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5.0348835
+      objectReference: {fileID: 0}
+    - target: {fileID: 490634, guid: 63ff2386a1262d64f99de6e3e1183874, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -103.31413
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 490634, guid: 63ff2386a1262d64f99de6e3e1183874, type: 3}
       propertyPath: m_LocalRotation.w
@@ -5003,7 +6115,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 145826, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
       propertyPath: m_Name
@@ -5011,6 +6127,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 406880, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: 18.431976
       objectReference: {fileID: 0}
     - target: {fileID: 406880, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
@@ -5020,6 +6137,17 @@ PrefabInstance:
     - target: {fileID: 406880, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
       propertyPath: m_LocalPosition.z
       value: 101.891396
+========
+      value: 12.299637
+      objectReference: {fileID: 0}
+    - target: {fileID: 406880, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -5.564993
+      objectReference: {fileID: 0}
+    - target: {fileID: 406880, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -16.216095
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 406880, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
       propertyPath: m_LocalRotation.w
@@ -5065,7 +6193,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 100000, guid: e7464e6962c79794bbfcdb1d60ea5cd1, type: 3}
       propertyPath: m_Name
@@ -5073,6 +6205,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7464e6962c79794bbfcdb1d60ea5cd1, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: -40.538612
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7464e6962c79794bbfcdb1d60ea5cd1, type: 3}
@@ -5082,6 +6215,17 @@ PrefabInstance:
     - target: {fileID: 400000, guid: e7464e6962c79794bbfcdb1d60ea5cd1, type: 3}
       propertyPath: m_LocalPosition.z
       value: -29.4019
+========
+      value: -46.67095
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: e7464e6962c79794bbfcdb1d60ea5cd1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.1740704
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: e7464e6962c79794bbfcdb1d60ea5cd1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -147.5094
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7464e6962c79794bbfcdb1d60ea5cd1, type: 3}
       propertyPath: m_LocalRotation.w
@@ -5127,7 +6271,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 1000010736078000, guid: a02009fcc6168a84d8ba0808a16e31d2, type: 3}
       propertyPath: m_Name
@@ -5135,6 +6283,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000014065311354, guid: a02009fcc6168a84d8ba0808a16e31d2, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: -52.01577
       objectReference: {fileID: 0}
     - target: {fileID: 4000014065311354, guid: a02009fcc6168a84d8ba0808a16e31d2, type: 3}
@@ -5144,6 +6293,17 @@ PrefabInstance:
     - target: {fileID: 4000014065311354, guid: a02009fcc6168a84d8ba0808a16e31d2, type: 3}
       propertyPath: m_LocalPosition.z
       value: -15.592508
+========
+      value: -58.14811
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000014065311354, guid: a02009fcc6168a84d8ba0808a16e31d2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -5.1651163
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000014065311354, guid: a02009fcc6168a84d8ba0808a16e31d2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -133.7
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 4000014065311354, guid: a02009fcc6168a84d8ba0808a16e31d2, type: 3}
       propertyPath: m_LocalRotation.w
@@ -5189,7 +6349,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 1000010390738104, guid: 09c2ce84a75b3324fb5c689e5ac6ce7e, type: 3}
       propertyPath: m_Name
@@ -5197,6 +6361,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000012333492518, guid: 09c2ce84a75b3324fb5c689e5ac6ce7e, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: -37.77604
       objectReference: {fileID: 0}
     - target: {fileID: 4000012333492518, guid: 09c2ce84a75b3324fb5c689e5ac6ce7e, type: 3}
@@ -5206,6 +6371,17 @@ PrefabInstance:
     - target: {fileID: 4000012333492518, guid: 09c2ce84a75b3324fb5c689e5ac6ce7e, type: 3}
       propertyPath: m_LocalPosition.z
       value: 16.179998
+========
+      value: -43.90838
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012333492518, guid: 09c2ce84a75b3324fb5c689e5ac6ce7e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -5.559805
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012333492518, guid: 09c2ce84a75b3324fb5c689e5ac6ce7e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -101.92749
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 4000012333492518, guid: 09c2ce84a75b3324fb5c689e5ac6ce7e, type: 3}
       propertyPath: m_LocalRotation.w
@@ -5251,7 +6427,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 110776, guid: 63ff2386a1262d64f99de6e3e1183874, type: 3}
       propertyPath: m_Name
@@ -5259,6 +6439,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 490634, guid: 63ff2386a1262d64f99de6e3e1183874, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: 68.54407
       objectReference: {fileID: 0}
     - target: {fileID: 490634, guid: 63ff2386a1262d64f99de6e3e1183874, type: 3}
@@ -5268,6 +6449,17 @@ PrefabInstance:
     - target: {fileID: 490634, guid: 63ff2386a1262d64f99de6e3e1183874, type: 3}
       propertyPath: m_LocalPosition.z
       value: 29.252832
+========
+      value: 62.411728
+      objectReference: {fileID: 0}
+    - target: {fileID: 490634, guid: 63ff2386a1262d64f99de6e3e1183874, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -6.0590954
+      objectReference: {fileID: 0}
+    - target: {fileID: 490634, guid: 63ff2386a1262d64f99de6e3e1183874, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -88.85466
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 490634, guid: 63ff2386a1262d64f99de6e3e1183874, type: 3}
       propertyPath: m_LocalRotation.w
@@ -5313,7 +6505,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 1000010736078000, guid: a02009fcc6168a84d8ba0808a16e31d2, type: 3}
       propertyPath: m_Name
@@ -5321,6 +6517,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000014065311354, guid: a02009fcc6168a84d8ba0808a16e31d2, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: -16.767632
       objectReference: {fileID: 0}
     - target: {fileID: 4000014065311354, guid: a02009fcc6168a84d8ba0808a16e31d2, type: 3}
@@ -5330,6 +6527,17 @@ PrefabInstance:
     - target: {fileID: 4000014065311354, guid: a02009fcc6168a84d8ba0808a16e31d2, type: 3}
       propertyPath: m_LocalPosition.z
       value: 74.95364
+========
+      value: -22.899971
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000014065311354, guid: a02009fcc6168a84d8ba0808a16e31d2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -6.5651164
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000014065311354, guid: a02009fcc6168a84d8ba0808a16e31d2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -43.153847
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 4000014065311354, guid: a02009fcc6168a84d8ba0808a16e31d2, type: 3}
       propertyPath: m_LocalRotation.w
@@ -5375,7 +6583,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 1000011035781986, guid: 3d609541b623cc24a85fcc89ee9fa9e6, type: 3}
       propertyPath: m_Name
@@ -5383,6 +6595,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000011095560932, guid: 3d609541b623cc24a85fcc89ee9fa9e6, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: -43.272507
       objectReference: {fileID: 0}
     - target: {fileID: 4000011095560932, guid: 3d609541b623cc24a85fcc89ee9fa9e6, type: 3}
@@ -5392,6 +6605,17 @@ PrefabInstance:
     - target: {fileID: 4000011095560932, guid: 3d609541b623cc24a85fcc89ee9fa9e6, type: 3}
       propertyPath: m_LocalPosition.z
       value: 16.973269
+========
+      value: -49.404846
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011095560932, guid: 3d609541b623cc24a85fcc89ee9fa9e6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.1103725
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011095560932, guid: 3d609541b623cc24a85fcc89ee9fa9e6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -101.134224
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 4000011095560932, guid: 3d609541b623cc24a85fcc89ee9fa9e6, type: 3}
       propertyPath: m_LocalRotation.w
@@ -5437,7 +6661,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 185962, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
       propertyPath: m_Name
@@ -5445,6 +6673,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 437750, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: -53.560257
       objectReference: {fileID: 0}
     - target: {fileID: 437750, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
@@ -5454,6 +6683,17 @@ PrefabInstance:
     - target: {fileID: 437750, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
       propertyPath: m_LocalPosition.z
       value: -22.768892
+========
+      value: -59.692596
+      objectReference: {fileID: 0}
+    - target: {fileID: 437750, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0068149567
+      objectReference: {fileID: 0}
+    - target: {fileID: 437750, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -140.87639
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 437750, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -5493,18 +6733,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 437750, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
   m_PrefabInstance: {fileID: 1471004766}
   m_PrefabAsset: {fileID: 0}
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
 --- !u!4 &1474420351 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2440111399922610626, guid: 64ba4ee8d22c125428de87594ef8f4c5, type: 3}
   m_PrefabInstance: {fileID: 179730897}
   m_PrefabAsset: {fileID: 0}
+========
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
 --- !u!1001 &1507848187
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 1000012046549718, guid: e59189dc53391154ba8d5468f263e319, type: 3}
       propertyPath: m_Name
@@ -5512,6 +6759,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000012447238448, guid: e59189dc53391154ba8d5468f263e319, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: -51.84617
       objectReference: {fileID: 0}
     - target: {fileID: 4000012447238448, guid: e59189dc53391154ba8d5468f263e319, type: 3}
@@ -5521,6 +6769,17 @@ PrefabInstance:
     - target: {fileID: 4000012447238448, guid: e59189dc53391154ba8d5468f263e319, type: 3}
       propertyPath: m_LocalPosition.z
       value: 29.660471
+========
+      value: -57.978508
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012447238448, guid: e59189dc53391154ba8d5468f263e319, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.3400478
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012447238448, guid: e59189dc53391154ba8d5468f263e319, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -88.44702
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 4000012447238448, guid: e59189dc53391154ba8d5468f263e319, type: 3}
       propertyPath: m_LocalRotation.w
@@ -5566,7 +6825,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 116276, guid: 689a36ce1e8152f488b3a0d5fc644805, type: 3}
       propertyPath: m_Name
@@ -5574,6 +6837,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 425070, guid: 689a36ce1e8152f488b3a0d5fc644805, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: -4.304001
       objectReference: {fileID: 0}
     - target: {fileID: 425070, guid: 689a36ce1e8152f488b3a0d5fc644805, type: 3}
@@ -5583,6 +6847,17 @@ PrefabInstance:
     - target: {fileID: 425070, guid: 689a36ce1e8152f488b3a0d5fc644805, type: 3}
       propertyPath: m_LocalPosition.z
       value: -24.786816
+========
+      value: -10.43634
+      objectReference: {fileID: 0}
+    - target: {fileID: 425070, guid: 689a36ce1e8152f488b3a0d5fc644805, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.0700588
+      objectReference: {fileID: 0}
+    - target: {fileID: 425070, guid: 689a36ce1e8152f488b3a0d5fc644805, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -142.8943
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 425070, guid: 689a36ce1e8152f488b3a0d5fc644805, type: 3}
       propertyPath: m_LocalRotation.w
@@ -5628,7 +6903,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 100000, guid: e7464e6962c79794bbfcdb1d60ea5cd1, type: 3}
       propertyPath: m_Name
@@ -5636,6 +6915,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7464e6962c79794bbfcdb1d60ea5cd1, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: -68.76083
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7464e6962c79794bbfcdb1d60ea5cd1, type: 3}
@@ -5645,6 +6925,17 @@ PrefabInstance:
     - target: {fileID: 400000, guid: e7464e6962c79794bbfcdb1d60ea5cd1, type: 3}
       propertyPath: m_LocalPosition.z
       value: 97.02085
+========
+      value: -74.89317
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: e7464e6962c79794bbfcdb1d60ea5cd1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.30927467
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: e7464e6962c79794bbfcdb1d60ea5cd1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -21.08664
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7464e6962c79794bbfcdb1d60ea5cd1, type: 3}
       propertyPath: m_LocalRotation.w
@@ -5690,7 +6981,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 100000, guid: e7464e6962c79794bbfcdb1d60ea5cd1, type: 3}
       propertyPath: m_Name
@@ -5698,6 +6993,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7464e6962c79794bbfcdb1d60ea5cd1, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: 26.210556
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7464e6962c79794bbfcdb1d60ea5cd1, type: 3}
@@ -5707,6 +7003,17 @@ PrefabInstance:
     - target: {fileID: 400000, guid: e7464e6962c79794bbfcdb1d60ea5cd1, type: 3}
       propertyPath: m_LocalPosition.z
       value: 141.3697
+========
+      value: 20.078217
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: e7464e6962c79794bbfcdb1d60ea5cd1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.8149166
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: e7464e6962c79794bbfcdb1d60ea5cd1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 23.262207
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7464e6962c79794bbfcdb1d60ea5cd1, type: 3}
       propertyPath: m_LocalRotation.w
@@ -5752,7 +7059,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 175704, guid: fb9f189dcf5d2ad4aad003a8a44b136d, type: 3}
       propertyPath: m_Name
@@ -5760,6 +7071,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 402682, guid: fb9f189dcf5d2ad4aad003a8a44b136d, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: -44.68593
       objectReference: {fileID: 0}
     - target: {fileID: 402682, guid: fb9f189dcf5d2ad4aad003a8a44b136d, type: 3}
@@ -5769,6 +7081,17 @@ PrefabInstance:
     - target: {fileID: 402682, guid: fb9f189dcf5d2ad4aad003a8a44b136d, type: 3}
       propertyPath: m_LocalPosition.z
       value: -17.923597
+========
+      value: -50.818268
+      objectReference: {fileID: 0}
+    - target: {fileID: 402682, guid: fb9f189dcf5d2ad4aad003a8a44b136d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.7194386
+      objectReference: {fileID: 0}
+    - target: {fileID: 402682, guid: fb9f189dcf5d2ad4aad003a8a44b136d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -136.0311
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 402682, guid: fb9f189dcf5d2ad4aad003a8a44b136d, type: 3}
       propertyPath: m_LocalRotation.w
@@ -5814,7 +7137,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 1000011285132168, guid: b324ebca6c0fde34a993f348c9a1c464, type: 3}
       propertyPath: m_Name
@@ -5822,6 +7149,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000011208106806, guid: b324ebca6c0fde34a993f348c9a1c464, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: -4.0193176
       objectReference: {fileID: 0}
     - target: {fileID: 4000011208106806, guid: b324ebca6c0fde34a993f348c9a1c464, type: 3}
@@ -5831,6 +7159,17 @@ PrefabInstance:
     - target: {fileID: 4000011208106806, guid: b324ebca6c0fde34a993f348c9a1c464, type: 3}
       propertyPath: m_LocalPosition.z
       value: 30.640837
+========
+      value: -10.151657
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011208106806, guid: b324ebca6c0fde34a993f348c9a1c464, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.1499996
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011208106806, guid: b324ebca6c0fde34a993f348c9a1c464, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -87.46666
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 4000011208106806, guid: b324ebca6c0fde34a993f348c9a1c464, type: 3}
       propertyPath: m_LocalRotation.w
@@ -5876,7 +7215,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 1000013520451200, guid: 3f77420e3ad8b0e46afcc1d8a07e9a9e, type: 3}
       propertyPath: m_Name
@@ -5884,6 +7227,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000013294878224, guid: 3f77420e3ad8b0e46afcc1d8a07e9a9e, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: -43.500854
       objectReference: {fileID: 0}
     - target: {fileID: 4000013294878224, guid: 3f77420e3ad8b0e46afcc1d8a07e9a9e, type: 3}
@@ -5893,6 +7237,17 @@ PrefabInstance:
     - target: {fileID: 4000013294878224, guid: 3f77420e3ad8b0e46afcc1d8a07e9a9e, type: 3}
       propertyPath: m_LocalPosition.z
       value: -2.5725727
+========
+      value: -49.633194
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000013294878224, guid: 3f77420e3ad8b0e46afcc1d8a07e9a9e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.21212578
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000013294878224, guid: 3f77420e3ad8b0e46afcc1d8a07e9a9e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -120.68007
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 4000013294878224, guid: 3f77420e3ad8b0e46afcc1d8a07e9a9e, type: 3}
       propertyPath: m_LocalRotation.w
@@ -5938,7 +7293,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 145826, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
       propertyPath: m_Name
@@ -5946,6 +7305,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 406880, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: -29.593567
       objectReference: {fileID: 0}
     - target: {fileID: 406880, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
@@ -5955,6 +7315,17 @@ PrefabInstance:
     - target: {fileID: 406880, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
       propertyPath: m_LocalPosition.z
       value: 36.738106
+========
+      value: -35.725906
+      objectReference: {fileID: 0}
+    - target: {fileID: 406880, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.8985043
+      objectReference: {fileID: 0}
+    - target: {fileID: 406880, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -81.369385
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 406880, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
       propertyPath: m_LocalRotation.w
@@ -6000,7 +7371,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 110776, guid: 63ff2386a1262d64f99de6e3e1183874, type: 3}
       propertyPath: m_Name
@@ -6008,6 +7383,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 490634, guid: 63ff2386a1262d64f99de6e3e1183874, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: 51.83934
       objectReference: {fileID: 0}
     - target: {fileID: 490634, guid: 63ff2386a1262d64f99de6e3e1183874, type: 3}
@@ -6017,6 +7393,17 @@ PrefabInstance:
     - target: {fileID: 490634, guid: 63ff2386a1262d64f99de6e3e1183874, type: 3}
       propertyPath: m_LocalPosition.z
       value: 149.14294
+========
+      value: 45.707
+      objectReference: {fileID: 0}
+    - target: {fileID: 490634, guid: 63ff2386a1262d64f99de6e3e1183874, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.539175
+      objectReference: {fileID: 0}
+    - target: {fileID: 490634, guid: 63ff2386a1262d64f99de6e3e1183874, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 31.035446
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 490634, guid: 63ff2386a1262d64f99de6e3e1183874, type: 3}
       propertyPath: m_LocalRotation.w
@@ -6062,7 +7449,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 100000, guid: 37e412f3502894c4c928d6774b0592ac, type: 3}
       propertyPath: m_Name
@@ -6070,6 +7461,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 37e412f3502894c4c928d6774b0592ac, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: 78.88606
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 37e412f3502894c4c928d6774b0592ac, type: 3}
@@ -6079,6 +7471,17 @@ PrefabInstance:
     - target: {fileID: 400000, guid: 37e412f3502894c4c928d6774b0592ac, type: 3}
       propertyPath: m_LocalPosition.z
       value: -25.636806
+========
+      value: 72.75372
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 37e412f3502894c4c928d6774b0592ac, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.319769
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 37e412f3502894c4c928d6774b0592ac, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -143.7443
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 37e412f3502894c4c928d6774b0592ac, type: 3}
       propertyPath: m_LocalRotation.w
@@ -6124,7 +7527,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 1000010285526238, guid: 847ad21e052823640b649f294605afb2, type: 3}
       propertyPath: m_Name
@@ -6132,6 +7539,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000011488240504, guid: 847ad21e052823640b649f294605afb2, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: -31.119003
       objectReference: {fileID: 0}
     - target: {fileID: 4000011488240504, guid: 847ad21e052823640b649f294605afb2, type: 3}
@@ -6141,6 +7549,17 @@ PrefabInstance:
     - target: {fileID: 4000011488240504, guid: 847ad21e052823640b649f294605afb2, type: 3}
       propertyPath: m_LocalPosition.z
       value: 8.817575
+========
+      value: -37.251343
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011488240504, guid: 847ad21e052823640b649f294605afb2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -9.065117
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011488240504, guid: 847ad21e052823640b649f294605afb2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -109.28992
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 4000011488240504, guid: 847ad21e052823640b649f294605afb2, type: 3}
       propertyPath: m_LocalRotation.w
@@ -6186,7 +7605,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_Name
@@ -6194,6 +7617,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: -34.532898
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
@@ -6203,6 +7627,17 @@ PrefabInstance:
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_LocalPosition.z
       value: 237.33083
+========
+      value: -40.665237
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.179655
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 119.22333
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_LocalRotation.w
@@ -6248,7 +7683,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 124032, guid: 45b8cac9ed2e6a142ae411672ba866f9, type: 3}
       propertyPath: m_Name
@@ -6256,6 +7695,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 403214, guid: 45b8cac9ed2e6a142ae411672ba866f9, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: -62.001266
       objectReference: {fileID: 0}
     - target: {fileID: 403214, guid: 45b8cac9ed2e6a142ae411672ba866f9, type: 3}
@@ -6265,6 +7705,17 @@ PrefabInstance:
     - target: {fileID: 403214, guid: 45b8cac9ed2e6a142ae411672ba866f9, type: 3}
       propertyPath: m_LocalPosition.z
       value: 56.813103
+========
+      value: -68.133606
+      objectReference: {fileID: 0}
+    - target: {fileID: 403214, guid: 45b8cac9ed2e6a142ae411672ba866f9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.6411648
+      objectReference: {fileID: 0}
+    - target: {fileID: 403214, guid: 45b8cac9ed2e6a142ae411672ba866f9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -61.294388
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 403214, guid: 45b8cac9ed2e6a142ae411672ba866f9, type: 3}
       propertyPath: m_LocalRotation.w
@@ -6310,7 +7761,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_Name
@@ -6318,6 +7773,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: -67.87656
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
@@ -6327,6 +7783,17 @@ PrefabInstance:
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_LocalPosition.z
       value: -28.982836
+========
+      value: -74.008896
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.6846218
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -147.09033
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_LocalRotation.w
@@ -6372,7 +7839,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 1000011859241944, guid: 2f11a19ee587ed44ca4a72f6d3986f99, type: 3}
       propertyPath: m_Name
@@ -6380,6 +7851,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000011147253788, guid: 2f11a19ee587ed44ca4a72f6d3986f99, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: -16.224838
       objectReference: {fileID: 0}
     - target: {fileID: 4000011147253788, guid: 2f11a19ee587ed44ca4a72f6d3986f99, type: 3}
@@ -6389,6 +7861,17 @@ PrefabInstance:
     - target: {fileID: 4000011147253788, guid: 2f11a19ee587ed44ca4a72f6d3986f99, type: 3}
       propertyPath: m_LocalPosition.z
       value: 44.55401
+========
+      value: -22.357178
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011147253788, guid: 2f11a19ee587ed44ca4a72f6d3986f99, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.517271
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011147253788, guid: 2f11a19ee587ed44ca4a72f6d3986f99, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -73.55348
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 4000011147253788, guid: 2f11a19ee587ed44ca4a72f6d3986f99, type: 3}
       propertyPath: m_LocalRotation.w
@@ -6434,7 +7917,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 1000010736078000, guid: a02009fcc6168a84d8ba0808a16e31d2, type: 3}
       propertyPath: m_Name
@@ -6442,6 +7929,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000014065311354, guid: a02009fcc6168a84d8ba0808a16e31d2, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: 4.3323364
       objectReference: {fileID: 0}
     - target: {fileID: 4000014065311354, guid: a02009fcc6168a84d8ba0808a16e31d2, type: 3}
@@ -6451,6 +7939,17 @@ PrefabInstance:
     - target: {fileID: 4000014065311354, guid: a02009fcc6168a84d8ba0808a16e31d2, type: 3}
       propertyPath: m_LocalPosition.z
       value: 16.937983
+========
+      value: -1.800003
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000014065311354, guid: a02009fcc6168a84d8ba0808a16e31d2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.6704693
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000014065311354, guid: a02009fcc6168a84d8ba0808a16e31d2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -101.16951
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 4000014065311354, guid: a02009fcc6168a84d8ba0808a16e31d2, type: 3}
       propertyPath: m_LocalRotation.w
@@ -6490,6 +7989,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4000014065311354, guid: a02009fcc6168a84d8ba0808a16e31d2, type: 3}
   m_PrefabInstance: {fileID: 1759963189}
   m_PrefabAsset: {fileID: 0}
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
 --- !u!1 &1766852415
 GameObject:
   m_ObjectHideFlags: 3
@@ -6573,13 +8073,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Damping: 0
+========
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
 --- !u!1001 &1781657759
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 1000010390738104, guid: 09c2ce84a75b3324fb5c689e5ac6ce7e, type: 3}
       propertyPath: m_Name
@@ -6587,6 +8093,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000012333492518, guid: 09c2ce84a75b3324fb5c689e5ac6ce7e, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: 59.33766
       objectReference: {fileID: 0}
     - target: {fileID: 4000012333492518, guid: 09c2ce84a75b3324fb5c689e5ac6ce7e, type: 3}
@@ -6596,6 +8103,17 @@ PrefabInstance:
     - target: {fileID: 4000012333492518, guid: 09c2ce84a75b3324fb5c689e5ac6ce7e, type: 3}
       propertyPath: m_LocalPosition.z
       value: 128.91809
+========
+      value: 53.205322
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012333492518, guid: 09c2ce84a75b3324fb5c689e5ac6ce7e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.0345898
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012333492518, guid: 09c2ce84a75b3324fb5c689e5ac6ce7e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 10.810593
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 4000012333492518, guid: 09c2ce84a75b3324fb5c689e5ac6ce7e, type: 3}
       propertyPath: m_LocalRotation.w
@@ -6641,7 +8159,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 143784, guid: 5d8a4c5c2390fc54e96a652c3eeaf313, type: 3}
       propertyPath: m_Name
@@ -6649,6 +8171,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400094, guid: 5d8a4c5c2390fc54e96a652c3eeaf313, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: 37.466965
       objectReference: {fileID: 0}
     - target: {fileID: 400094, guid: 5d8a4c5c2390fc54e96a652c3eeaf313, type: 3}
@@ -6658,6 +8181,17 @@ PrefabInstance:
     - target: {fileID: 400094, guid: 5d8a4c5c2390fc54e96a652c3eeaf313, type: 3}
       propertyPath: m_LocalPosition.z
       value: 26.211863
+========
+      value: 31.334625
+      objectReference: {fileID: 0}
+    - target: {fileID: 400094, guid: 5d8a4c5c2390fc54e96a652c3eeaf313, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.72870445
+      objectReference: {fileID: 0}
+    - target: {fileID: 400094, guid: 5d8a4c5c2390fc54e96a652c3eeaf313, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -91.89563
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 400094, guid: 5d8a4c5c2390fc54e96a652c3eeaf313, type: 3}
       propertyPath: m_LocalRotation.w
@@ -6703,7 +8237,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 145826, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
       propertyPath: m_Name
@@ -6711,6 +8249,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 406880, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: -5.689575
       objectReference: {fileID: 0}
     - target: {fileID: 406880, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
@@ -6720,6 +8259,17 @@ PrefabInstance:
     - target: {fileID: 406880, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
       propertyPath: m_LocalPosition.z
       value: 152.99243
+========
+      value: -11.821915
+      objectReference: {fileID: 0}
+    - target: {fileID: 406880, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.238287
+      objectReference: {fileID: 0}
+    - target: {fileID: 406880, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 34.884933
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 406880, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
       propertyPath: m_LocalRotation.w
@@ -6765,7 +8315,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 145826, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
       propertyPath: m_Name
@@ -6773,6 +8327,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 406880, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: 64.07008
       objectReference: {fileID: 0}
     - target: {fileID: 406880, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
@@ -6782,6 +8337,17 @@ PrefabInstance:
     - target: {fileID: 406880, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
       propertyPath: m_LocalPosition.z
       value: 202.46034
+========
+      value: 57.937744
+      objectReference: {fileID: 0}
+    - target: {fileID: 406880, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -6.0339413
+      objectReference: {fileID: 0}
+    - target: {fileID: 406880, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 84.352844
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 406880, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
       propertyPath: m_LocalRotation.w
@@ -6827,7 +8393,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 116276, guid: 689a36ce1e8152f488b3a0d5fc644805, type: 3}
       propertyPath: m_Name
@@ -6835,6 +8405,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 425070, guid: 689a36ce1e8152f488b3a0d5fc644805, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: -71.49162
       objectReference: {fileID: 0}
     - target: {fileID: 425070, guid: 689a36ce1e8152f488b3a0d5fc644805, type: 3}
@@ -6844,6 +8415,17 @@ PrefabInstance:
     - target: {fileID: 425070, guid: 689a36ce1e8152f488b3a0d5fc644805, type: 3}
       propertyPath: m_LocalPosition.z
       value: 81.82351
+========
+      value: -77.62396
+      objectReference: {fileID: 0}
+    - target: {fileID: 425070, guid: 689a36ce1e8152f488b3a0d5fc644805, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.6568165
+      objectReference: {fileID: 0}
+    - target: {fileID: 425070, guid: 689a36ce1e8152f488b3a0d5fc644805, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -36.28398
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 425070, guid: 689a36ce1e8152f488b3a0d5fc644805, type: 3}
       propertyPath: m_LocalRotation.w
@@ -6889,7 +8471,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 136472, guid: e9ef501c03d9e0f4f8965162fd6bfbba, type: 3}
       propertyPath: m_Name
@@ -6897,6 +8483,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 435472, guid: e9ef501c03d9e0f4f8965162fd6bfbba, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: -82.75328
       objectReference: {fileID: 0}
     - target: {fileID: 435472, guid: e9ef501c03d9e0f4f8965162fd6bfbba, type: 3}
@@ -6906,6 +8493,17 @@ PrefabInstance:
     - target: {fileID: 435472, guid: e9ef501c03d9e0f4f8965162fd6bfbba, type: 3}
       propertyPath: m_LocalPosition.z
       value: -2.1692886
+========
+      value: -88.88562
+      objectReference: {fileID: 0}
+    - target: {fileID: 435472, guid: e9ef501c03d9e0f4f8965162fd6bfbba, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.1193447
+      objectReference: {fileID: 0}
+    - target: {fileID: 435472, guid: e9ef501c03d9e0f4f8965162fd6bfbba, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -120.27678
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 435472, guid: e9ef501c03d9e0f4f8965162fd6bfbba, type: 3}
       propertyPath: m_LocalRotation.w
@@ -6951,7 +8549,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 143784, guid: 5d8a4c5c2390fc54e96a652c3eeaf313, type: 3}
       propertyPath: m_Name
@@ -6959,6 +8561,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400094, guid: 5d8a4c5c2390fc54e96a652c3eeaf313, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: -91.462875
       objectReference: {fileID: 0}
     - target: {fileID: 400094, guid: 5d8a4c5c2390fc54e96a652c3eeaf313, type: 3}
@@ -6968,6 +8571,17 @@ PrefabInstance:
     - target: {fileID: 400094, guid: 5d8a4c5c2390fc54e96a652c3eeaf313, type: 3}
       propertyPath: m_LocalPosition.z
       value: 14.859934
+========
+      value: -97.595215
+      objectReference: {fileID: 0}
+    - target: {fileID: 400094, guid: 5d8a4c5c2390fc54e96a652c3eeaf313, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5.6754704
+      objectReference: {fileID: 0}
+    - target: {fileID: 400094, guid: 5d8a4c5c2390fc54e96a652c3eeaf313, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -103.24756
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 400094, guid: 5d8a4c5c2390fc54e96a652c3eeaf313, type: 3}
       propertyPath: m_LocalRotation.w
@@ -7013,7 +8627,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 185962, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
       propertyPath: m_Name
@@ -7021,6 +8639,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 437750, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: 108.63298
       objectReference: {fileID: 0}
     - target: {fileID: 437750, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
@@ -7030,6 +8649,17 @@ PrefabInstance:
     - target: {fileID: 437750, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
       propertyPath: m_LocalPosition.z
       value: 48.230225
+========
+      value: 102.50064
+      objectReference: {fileID: 0}
+    - target: {fileID: 437750, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -5.0178585
+      objectReference: {fileID: 0}
+    - target: {fileID: 437750, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -69.877266
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 437750, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -7075,7 +8705,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 1000010780680120, guid: 3e21f0d87380e8a4ab812ed8ecaf90be, type: 3}
       propertyPath: m_Name
@@ -7083,6 +8717,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000012489837478, guid: 3e21f0d87380e8a4ab812ed8ecaf90be, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: 42.04265
       objectReference: {fileID: 0}
     - target: {fileID: 4000012489837478, guid: 3e21f0d87380e8a4ab812ed8ecaf90be, type: 3}
@@ -7092,6 +8727,17 @@ PrefabInstance:
     - target: {fileID: 4000012489837478, guid: 3e21f0d87380e8a4ab812ed8ecaf90be, type: 3}
       propertyPath: m_LocalPosition.z
       value: 13.136309
+========
+      value: 35.91031
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012489837478, guid: 3e21f0d87380e8a4ab812ed8ecaf90be, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.3362408
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012489837478, guid: 3e21f0d87380e8a4ab812ed8ecaf90be, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -104.97118
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 4000012489837478, guid: 3e21f0d87380e8a4ab812ed8ecaf90be, type: 3}
       propertyPath: m_LocalRotation.w
@@ -7137,7 +8783,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 145826, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
       propertyPath: m_Name
@@ -7145,6 +8795,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 406880, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: -37.369324
       objectReference: {fileID: 0}
     - target: {fileID: 406880, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
@@ -7154,6 +8805,17 @@ PrefabInstance:
     - target: {fileID: 406880, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
       propertyPath: m_LocalPosition.z
       value: 85.46133
+========
+      value: -43.501663
+      objectReference: {fileID: 0}
+    - target: {fileID: 406880, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.9214535
+      objectReference: {fileID: 0}
+    - target: {fileID: 406880, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -32.646164
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 406880, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
       propertyPath: m_LocalRotation.w
@@ -7199,7 +8861,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 145826, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
       propertyPath: m_Name
@@ -7207,6 +8873,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 406880, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: -91.35805
       objectReference: {fileID: 0}
     - target: {fileID: 406880, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
@@ -7216,6 +8883,17 @@ PrefabInstance:
     - target: {fileID: 406880, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
       propertyPath: m_LocalPosition.z
       value: -7.7496243
+========
+      value: -97.49039
+      objectReference: {fileID: 0}
+    - target: {fileID: 406880, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.1034184
+      objectReference: {fileID: 0}
+    - target: {fileID: 406880, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -125.85712
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 406880, guid: 35d82b3ae8f9c4f42b6b11ccb42803cd, type: 3}
       propertyPath: m_LocalRotation.w
@@ -7261,7 +8939,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 110776, guid: 63ff2386a1262d64f99de6e3e1183874, type: 3}
       propertyPath: m_Name
@@ -7269,6 +8951,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 490634, guid: 63ff2386a1262d64f99de6e3e1183874, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: -78.92645
       objectReference: {fileID: 0}
     - target: {fileID: 490634, guid: 63ff2386a1262d64f99de6e3e1183874, type: 3}
@@ -7278,6 +8961,17 @@ PrefabInstance:
     - target: {fileID: 490634, guid: 63ff2386a1262d64f99de6e3e1183874, type: 3}
       propertyPath: m_LocalPosition.z
       value: -18.214872
+========
+      value: -85.05879
+      objectReference: {fileID: 0}
+    - target: {fileID: 490634, guid: 63ff2386a1262d64f99de6e3e1183874, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.5301876
+      objectReference: {fileID: 0}
+    - target: {fileID: 490634, guid: 63ff2386a1262d64f99de6e3e1183874, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -136.32236
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 490634, guid: 63ff2386a1262d64f99de6e3e1183874, type: 3}
       propertyPath: m_LocalRotation.w
@@ -7323,7 +9017,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 100000, guid: eb342f6eed94af74c8e910d8b3369c96, type: 3}
       propertyPath: m_Name
@@ -7331,6 +9029,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: eb342f6eed94af74c8e910d8b3369c96, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: -68.53109
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: eb342f6eed94af74c8e910d8b3369c96, type: 3}
@@ -7340,6 +9039,17 @@ PrefabInstance:
     - target: {fileID: 400000, guid: eb342f6eed94af74c8e910d8b3369c96, type: 3}
       propertyPath: m_LocalPosition.z
       value: -13.240637
+========
+      value: -74.66343
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: eb342f6eed94af74c8e910d8b3369c96, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.7149677
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: eb342f6eed94af74c8e910d8b3369c96, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -131.34813
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: eb342f6eed94af74c8e910d8b3369c96, type: 3}
       propertyPath: m_LocalRotation.w
@@ -7385,7 +9095,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 163980, guid: 2fb6f5d47657319408dbd4f3e8412b4c, type: 3}
       propertyPath: m_Name
@@ -7393,6 +9107,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 433264, guid: 2fb6f5d47657319408dbd4f3e8412b4c, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: 29.4617
       objectReference: {fileID: 0}
     - target: {fileID: 433264, guid: 2fb6f5d47657319408dbd4f3e8412b4c, type: 3}
@@ -7402,6 +9117,17 @@ PrefabInstance:
     - target: {fileID: 433264, guid: 2fb6f5d47657319408dbd4f3e8412b4c, type: 3}
       propertyPath: m_LocalPosition.z
       value: -9.448204
+========
+      value: 23.329361
+      objectReference: {fileID: 0}
+    - target: {fileID: 433264, guid: 2fb6f5d47657319408dbd4f3e8412b4c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.46253395
+      objectReference: {fileID: 0}
+    - target: {fileID: 433264, guid: 2fb6f5d47657319408dbd4f3e8412b4c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -127.555695
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 433264, guid: 2fb6f5d47657319408dbd4f3e8412b4c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -7447,7 +9173,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 100000, guid: eb342f6eed94af74c8e910d8b3369c96, type: 3}
       propertyPath: m_Name
@@ -7455,6 +9185,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: eb342f6eed94af74c8e910d8b3369c96, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: -100.753586
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: eb342f6eed94af74c8e910d8b3369c96, type: 3}
@@ -7464,6 +9195,17 @@ PrefabInstance:
     - target: {fileID: 400000, guid: eb342f6eed94af74c8e910d8b3369c96, type: 3}
       propertyPath: m_LocalPosition.z
       value: 34.52836
+========
+      value: -106.885925
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: eb342f6eed94af74c8e910d8b3369c96, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5.9636097
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: eb342f6eed94af74c8e910d8b3369c96, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -83.57913
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: eb342f6eed94af74c8e910d8b3369c96, type: 3}
       propertyPath: m_LocalRotation.w
@@ -7509,7 +9251,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 1000010390738104, guid: 09c2ce84a75b3324fb5c689e5ac6ce7e, type: 3}
       propertyPath: m_Name
@@ -7517,6 +9263,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000012333492518, guid: 09c2ce84a75b3324fb5c689e5ac6ce7e, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: -87.2675
       objectReference: {fileID: 0}
     - target: {fileID: 4000012333492518, guid: 09c2ce84a75b3324fb5c689e5ac6ce7e, type: 3}
@@ -7526,6 +9273,17 @@ PrefabInstance:
     - target: {fileID: 4000012333492518, guid: 09c2ce84a75b3324fb5c689e5ac6ce7e, type: 3}
       propertyPath: m_LocalPosition.z
       value: 40.89881
+========
+      value: -93.39984
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012333492518, guid: 09c2ce84a75b3324fb5c689e5ac6ce7e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.5525417
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012333492518, guid: 09c2ce84a75b3324fb5c689e5ac6ce7e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -77.20868
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 4000012333492518, guid: 09c2ce84a75b3324fb5c689e5ac6ce7e, type: 3}
       propertyPath: m_LocalRotation.w
@@ -7571,7 +9329,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 143784, guid: 5d8a4c5c2390fc54e96a652c3eeaf313, type: 3}
       propertyPath: m_Name
@@ -7579,6 +9341,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400094, guid: 5d8a4c5c2390fc54e96a652c3eeaf313, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: 63.2809
       objectReference: {fileID: 0}
     - target: {fileID: 400094, guid: 5d8a4c5c2390fc54e96a652c3eeaf313, type: 3}
@@ -7588,6 +9351,17 @@ PrefabInstance:
     - target: {fileID: 400094, guid: 5d8a4c5c2390fc54e96a652c3eeaf313, type: 3}
       propertyPath: m_LocalPosition.z
       value: 105.88712
+========
+      value: 57.14856
+      objectReference: {fileID: 0}
+    - target: {fileID: 400094, guid: 5d8a4c5c2390fc54e96a652c3eeaf313, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.310583
+      objectReference: {fileID: 0}
+    - target: {fileID: 400094, guid: 5d8a4c5c2390fc54e96a652c3eeaf313, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -12.220367
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 400094, guid: 5d8a4c5c2390fc54e96a652c3eeaf313, type: 3}
       propertyPath: m_LocalRotation.w
@@ -7633,7 +9407,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 163980, guid: 2fb6f5d47657319408dbd4f3e8412b4c, type: 3}
       propertyPath: m_Name
@@ -7641,6 +9419,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 433264, guid: 2fb6f5d47657319408dbd4f3e8412b4c, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: -67.40903
       objectReference: {fileID: 0}
     - target: {fileID: 433264, guid: 2fb6f5d47657319408dbd4f3e8412b4c, type: 3}
@@ -7650,6 +9429,17 @@ PrefabInstance:
     - target: {fileID: 433264, guid: 2fb6f5d47657319408dbd4f3e8412b4c, type: 3}
       propertyPath: m_LocalPosition.z
       value: 173.25648
+========
+      value: -73.54137
+      objectReference: {fileID: 0}
+    - target: {fileID: 433264, guid: 2fb6f5d47657319408dbd4f3e8412b4c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.5425243
+      objectReference: {fileID: 0}
+    - target: {fileID: 433264, guid: 2fb6f5d47657319408dbd4f3e8412b4c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 55.148987
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 433264, guid: 2fb6f5d47657319408dbd4f3e8412b4c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -7695,7 +9485,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 1000011151103506, guid: 2d30eb97c479d1541be03182e7e4e990, type: 3}
       propertyPath: m_Name
@@ -7703,6 +9497,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000011041737276, guid: 2d30eb97c479d1541be03182e7e4e990, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: -58.267662
       objectReference: {fileID: 0}
     - target: {fileID: 4000011041737276, guid: 2d30eb97c479d1541be03182e7e4e990, type: 3}
@@ -7712,6 +9507,17 @@ PrefabInstance:
     - target: {fileID: 4000011041737276, guid: 2d30eb97c479d1541be03182e7e4e990, type: 3}
       propertyPath: m_LocalPosition.z
       value: -3.5925083
+========
+      value: -64.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011041737276, guid: 2d30eb97c479d1541be03182e7e4e990, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.8348837
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011041737276, guid: 2d30eb97c479d1541be03182e7e4e990, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -121.7
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 4000011041737276, guid: 2d30eb97c479d1541be03182e7e4e990, type: 3}
       propertyPath: m_LocalRotation.w
@@ -7757,7 +9563,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 1000012423379628, guid: 6e659ebd79ad8c5408cd18c2a0e534eb, type: 3}
       propertyPath: m_Name
@@ -7765,6 +9575,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000012314331726, guid: 6e659ebd79ad8c5408cd18c2a0e534eb, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: -33.854042
       objectReference: {fileID: 0}
     - target: {fileID: 4000012314331726, guid: 6e659ebd79ad8c5408cd18c2a0e534eb, type: 3}
@@ -7774,6 +9585,17 @@ PrefabInstance:
     - target: {fileID: 4000012314331726, guid: 6e659ebd79ad8c5408cd18c2a0e534eb, type: 3}
       propertyPath: m_LocalPosition.z
       value: 29.724916
+========
+      value: -39.98638
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012314331726, guid: 6e659ebd79ad8c5408cd18c2a0e534eb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.3073635
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012314331726, guid: 6e659ebd79ad8c5408cd18c2a0e534eb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -88.382576
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 4000012314331726, guid: 6e659ebd79ad8c5408cd18c2a0e534eb, type: 3}
       propertyPath: m_LocalRotation.w
@@ -7819,7 +9641,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
     m_TransformParent: {fileID: 1036641912}
+========
+    m_TransformParent: {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
     m_Modifications:
     - target: {fileID: 185962, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
       propertyPath: m_Name
@@ -7827,6 +9653,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 437750, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
       value: 31.14389
       objectReference: {fileID: 0}
     - target: {fileID: 437750, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
@@ -7836,6 +9663,17 @@ PrefabInstance:
     - target: {fileID: 437750, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
       propertyPath: m_LocalPosition.z
       value: 106.1921
+========
+      value: 25.01155
+      objectReference: {fileID: 0}
+    - target: {fileID: 437750, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.6475124
+      objectReference: {fileID: 0}
+    - target: {fileID: 437750, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -11.91539
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 437750, guid: 9739a89a5ec460c4b94bb52719a0931c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -7884,5 +9722,9 @@ SceneRoots:
   - {fileID: 429716993}
   - {fileID: 1137926245}
   - {fileID: 179730897}
+<<<<<<<< HEAD:Assets/Scenes/Gio_Scene.unity
   - {fileID: 1036641912}
   - {fileID: 889094165}
+========
+  - {fileID: 1089317901}
+>>>>>>>> scrum/week4:Assets/Scenes/Gio_Terrain_Scene.unity
