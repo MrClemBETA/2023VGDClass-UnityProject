@@ -9,9 +9,6 @@ namespace SOS.AndrewsAdventure.Character
         [SerializeField] float sprintMultiplier = 2f;
         [SerializeField] float walkSpeed = 5f;
         [SerializeField] float jumpSpeed = 3f;
-        private Transform TheOriginalAndrew;
-        private Transform TheOriginalLateef;
-        private Transform TheOriginalMeresankh;
 
         public bool CanMove { get; set; }
 
@@ -31,17 +28,16 @@ namespace SOS.AndrewsAdventure.Character
         {
             if (CanMove)
             {
-                controller.Move(movementComposite * walkSpeed * speedMultiplier * Time.deltaTime);
+                float facing = Camera.main.transform.eulerAngles.y;
+                Vector3 turnedMovement = Quaternion.Euler(0, facing, 0) * movementComposite;
+                controller.Move(turnedMovement * walkSpeed * speedMultiplier * Time.deltaTime);
                 movementComposite.y += gravityValue * Time.deltaTime;
             }
-            TheOriginalLateef.Rotate(0,0,0);
-            TheOriginalMeresankh.Rotate(0, 0, 0);
         }
 
         public void OnMovement(InputAction.CallbackContext value)
         {
-            Vector3 movement = value.ReadValue<Vector3>();
-            movementComposite = new Vector3(movement.x, movementComposite.y, movement.z);
+            movementComposite = value.ReadValue<Vector3>();
         }
 
         public void OnJump(InputAction.CallbackContext value)
