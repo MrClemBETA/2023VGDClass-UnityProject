@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -8,6 +6,7 @@ namespace SOS.AndrewsAdventure.Character.Party
     public class PartyFollow : MonoBehaviour
     {
         [SerializeField] Transform target;
+        [SerializeField] float speed;
 
         private NavMeshAgent agent;
 
@@ -15,6 +14,7 @@ namespace SOS.AndrewsAdventure.Character.Party
         void Start()
         {
             agent = GetComponent<NavMeshAgent>();
+            agent.speed = speed;
         }
 
         // Update is called once per frame
