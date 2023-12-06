@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &6731756358517955182
+--- !u!1001 &7351614485734510609
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -14,7 +14,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 789757316621784195, guid: a5e4253971562d54b9fe0378bd54be43, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.959
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 789757316621784195, guid: a5e4253971562d54b9fe0378bd54be43, type: 3}
       propertyPath: m_LocalPosition.z
@@ -48,13 +48,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4677122669398797097, guid: a5e4253971562d54b9fe0378bd54be43, type: 3}
-      propertyPath: speed
-      value: 3
+    - target: {fileID: 5391897052303544303, guid: a5e4253971562d54b9fe0378bd54be43, type: 3}
+      propertyPath: maxHealth
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 6552444961096933849, guid: a5e4253971562d54b9fe0378bd54be43, type: 3}
       propertyPath: m_Name
-      value: Lateef
+      value: Meresankh
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
