@@ -14,7 +14,8 @@ GameObject:
   - component: {fileID: 1046113873549752429}
   - component: {fileID: 2859977694364176567}
   - component: {fileID: 4677122669398797097}
-  - component: {fileID: 3645430244226502195}
+  - component: {fileID: 5391897052303544303}
+  - component: {fileID: -7657130553721962918}
   m_Layer: 0
   m_Name: Party Member Follow
   m_TagString: Untagged
@@ -146,7 +147,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 0}
   speed: 6
---- !u!114 &3645430244226502195
+--- !u!114 &5391897052303544303
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -155,10 +156,23 @@ MonoBehaviour:
   m_GameObject: {fileID: 6552444961096933849}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f862fa17acbb22f42b678e754aa9ec71, type: 3}
+  m_Script: {fileID: 11500000, guid: e53a3c744de1d8b4dbf85dbbef25d99a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxLHealth: 15
-  LHealth: 15
-  maxMHealth: 12
-  MHealth: 10
+  maxHealth: 10
+  health: 0
+  invincibilityTime: 1
+  flashTime: 0.1
+--- !u!114 &-7657130553721962918
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6552444961096933849}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3630121d8ea61774bae980aecf8950eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 10

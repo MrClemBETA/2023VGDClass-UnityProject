@@ -22,5 +22,7 @@ namespace SOS.AndrewsAdventure.Character.Party
         {
             agent.destination = target.position;
         }
+
+        public void SetTarget(Transform target) { this.target = target; }
     }
 }
