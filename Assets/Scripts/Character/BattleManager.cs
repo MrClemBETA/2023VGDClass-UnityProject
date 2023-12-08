@@ -1,5 +1,6 @@
 using JetBrains.Annotations;
 using UnityEngine;
+using UnityEngine.AI;
 
 namespace SOS.AndrewsAdventure.Character
 {
@@ -16,13 +17,20 @@ namespace SOS.AndrewsAdventure.Character
         public Transform TheOriginalLateef;
         public Transform TheOriginalMeresankh;
 
+        public void Start()
+        {
+            
+        }
+
+
         public void Update() 
         {
+
             if (inbattle == true)
             {
-                TheOriginalAndrew.transform.position = new Vector3(-1.25f, 1f, 101.25f);
-                TheOriginalLateef.transform.position =  new Vector3(-2.5f, 1f, 100f);
-                TheOriginalMeresankh.transform.position = new Vector3(-3.25f, 1f, 98.75f);
+                TheOriginalAndrew.transform.position = new Vector3(-3f, 2.31f, 102f);
+                TheOriginalLateef.transform.position =  new Vector3(-4f, 1.1f, 100f);
+                TheOriginalMeresankh.transform.position = new Vector3(-5f, 2f, 98f);
             }
         }
     }
