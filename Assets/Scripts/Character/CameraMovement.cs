@@ -9,6 +9,7 @@ namespace SOS.AndrewsAdventure.Character
         [SerializeField] float xBuffer = 100;
 
         private float rotation = 0;
+        private bool canRotate = true;
 
         public void HorizontalMovement(InputAction.CallbackContext value)
         {
@@ -18,7 +19,15 @@ namespace SOS.AndrewsAdventure.Character
 
         private void Update()
         {
-            transform.Rotate(Vector3.up, rotation / 360);
+            if (canRotate)
+            {
+                transform.Rotate(Vector3.up, rotation / 360);
+            }
+        }
+
+        public void StopCameraMovement()
+        {
+            canRotate = false;
         }
     }
 }

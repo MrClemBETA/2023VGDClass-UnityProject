@@ -53,5 +53,11 @@ namespace SOS.AndrewsAdventure.Character
             if (value.started) speedMultiplier = sprintMultiplier;
             else if(value.canceled) speedMultiplier = 1f;
         }
+
+        public void EnterBattleSequence()
+        {
+            CanMove = false;
+            GetComponentInChildren<CameraMovement>().StopCameraMovement();
+        }
     }
 }
