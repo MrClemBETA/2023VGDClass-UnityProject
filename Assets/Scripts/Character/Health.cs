@@ -7,9 +7,10 @@ namespace SOS.AndrewsAdventure.Character
     {
         [Min(10)]
         [SerializeField] public int maxHealth = 10;
-        [SerializeField] int health;
-        [SerializeField] float invincibilityTime = 1f;
-        [SerializeField] float flashTime = .1f;
+
+        private int health;
+        private float invincibilityTime = 1f;
+        private float flashTime = .1f;
 
         private MeshRenderer mRenderer;
         private float elapsedITime = 0f;
@@ -17,7 +18,7 @@ namespace SOS.AndrewsAdventure.Character
         private bool isInvincible = false;
         private bool isRendered = true;
 
-        void Start()
+        void Awake()
         {
             health = maxHealth;
             mRenderer = GetComponent<MeshRenderer>();
@@ -64,6 +65,11 @@ namespace SOS.AndrewsAdventure.Character
 
                 health = Mathf.Max(0, health - damage);
             }
+        }
+
+        public void SetMaxHealth(int health)
+        {
+            maxHealth = this.health = health;
         }
     }
 }
