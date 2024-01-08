@@ -14,34 +14,41 @@ namespace SOS.AndrewsAdventure.Character
     public class BattleManager : MonoBehaviour
     {
         [SerializeField] public bool inbattle = false;
-        public Transform TheOriginalAndrew;
-        public Transform TheFirstOpponent;
-        public Transform Meresankh;
-        public Transform Lateef;
+        private Transform player;
+        private Party.Party party;
+        private Transform Meresankh;
+        private Transform Lateef;
         public Camera MainCamera;
         public Camera BattleCamera;
-        public NavMeshAgent Enemy;
+        private NavMeshAgent nma;
 
         public void Start()
         {
-            Enemy = GetComponent<NavMeshAgent>();
+            player = FindAnyObjectByType<PlayerController>().transform;
+            party = FindAnyObjectByType<Party.Party>();
+            Meresankh = party.GetCharacter("Meresankh").transform;
+            Lateef = party.GetCharacter("Lateef").transform;
+            nma = GetComponent<NavMeshAgent>();
             MainCamera.enabled = true;
             BattleCamera.enabled = false;
             inbattle = false;
         }
-        public void OnTriggerEnter(Collider TheFirstOpponent)
+        public void OnTriggerEnter(Collider collider)
         {
-            inbattle = true;
+            if (collider.tag == "Player")
+            {
+                inbattle = true;
+            }
         }
 
         public void Update() 
         {
-            Enemy.destination = transform.position;
-            
+            nma.destination = player.position;
+
             if (inbattle == true)
             {
-                TheOriginalAndrew.position = new Vector3(-3f, 2.31f, 102f);
-                TheFirstOpponent.position = new Vector3(3f, 2.31f, 102f);
+                player.position = new Vector3(-3f, 2.31f, 102f);
+                transform.position = new Vector3(3f, 2.31f, 102f);
                 Lateef.position = new Vector3(-4f, 1f, 100f);
                 Meresankh.position = new Vector3(-5f, 1f, 98);
                 MainCamera.enabled = false;

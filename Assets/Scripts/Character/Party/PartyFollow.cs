@@ -24,5 +24,6 @@ namespace SOS.AndrewsAdventure.Character.Party
         }
 
         public void SetTarget(Transform target) { this.target = target; }
+        public float GetSpeed() { return speed; }
     }
 }
