@@ -1,3 +1,4 @@
+using Cinemachine;
 using JetBrains.Annotations;
 using Unity.VisualScripting;
 using UnityEngine;
@@ -13,13 +14,12 @@ namespace SOS.AndrewsAdventure.Character
     [RequireComponent(typeof(Health))]
     public class BattleManager : MonoBehaviour
     {
-        [SerializeField] public bool inbattle = false;
+        private bool inBattle = false;
         private Transform player;
         private Party.Party party;
         private Transform Meresankh;
         private Transform Lateef;
-        public Camera MainCamera;
-        public Camera BattleCamera;
+        public CinemachineVirtualCamera vCamera3rdPerson;
         private NavMeshAgent nma;
 
         public void Start()
@@ -29,15 +29,12 @@ namespace SOS.AndrewsAdventure.Character
             Meresankh = party.GetCharacter("Meresankh").transform;
             Lateef = party.GetCharacter("Lateef").transform;
             nma = GetComponent<NavMeshAgent>();
-            MainCamera.enabled = true;
-            BattleCamera.enabled = false;
-            inbattle = false;
         }
         public void OnTriggerEnter(Collider collider)
         {
             if (collider.tag == "Player")
             {
-                inbattle = true;
+                inBattle = true;
             }
         }
 
@@ -45,14 +42,13 @@ namespace SOS.AndrewsAdventure.Character
         {
             nma.destination = player.position;
 
-            if (inbattle == true)
+            if (inBattle == true)
             {
                 player.position = new Vector3(-3f, 2.31f, 102f);
                 transform.position = new Vector3(3f, 2.31f, 102f);
                 Lateef.position = new Vector3(-4f, 1f, 100f);
                 Meresankh.position = new Vector3(-5f, 1f, 98);
-                MainCamera.enabled = false;
-                BattleCamera.enabled = true;
+                vCamera3rdPerson.Priority = 1;
             }
         }
     }

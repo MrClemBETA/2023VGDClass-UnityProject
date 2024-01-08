@@ -1,3 +1,4 @@
+using Cinemachine;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -9,6 +10,7 @@ namespace SOS.AndrewsAdventure.Character
         [SerializeField] float sprintMultiplier = 2f;
         [SerializeField] float walkSpeed = 5f;
         [SerializeField] float jumpSpeed = 3f;
+        [SerializeField] CinemachineVirtualCamera vCamera3rdPerson;
 
         public bool CanMove { get; set; }
 
@@ -28,10 +30,13 @@ namespace SOS.AndrewsAdventure.Character
         {
             if (CanMove)
             {
-                float facing = Camera.main.transform.eulerAngles.y;
-                Vector3 turnedMovement = Quaternion.Euler(0, facing, 0) * movementComposite;
-                controller.Move(turnedMovement * walkSpeed * speedMultiplier * Time.deltaTime);
-                movementComposite.y += gravityValue * Time.deltaTime;
+                if (vCamera3rdPerson.Priority == 10)
+                {
+                    float facing = Camera.main.transform.eulerAngles.y;
+                    Vector3 turnedMovement = Quaternion.Euler(0, facing, 0) * movementComposite;
+                    controller.Move(turnedMovement * walkSpeed * speedMultiplier * Time.deltaTime);
+                    movementComposite.y += gravityValue * Time.deltaTime;
+                }
             }
         }
 
