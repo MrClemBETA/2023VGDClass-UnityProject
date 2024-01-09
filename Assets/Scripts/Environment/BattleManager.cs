@@ -17,8 +17,8 @@ namespace SOS.AndrewsAdventure.Character
         private bool inBattle = false;
         private Transform player;
         private Party.Party party;
-        private Transform Meresankh;
-        private Transform Lateef;
+        [SerializeField] Transform Lateef;
+        [SerializeField] Transform Meresankh;
         public CinemachineVirtualCamera vCamera3rdPerson;
         private NavMeshAgent nma;
 

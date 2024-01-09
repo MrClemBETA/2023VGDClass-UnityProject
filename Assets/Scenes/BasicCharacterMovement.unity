@@ -148,14 +148,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 15040811}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.19509031, y: 0, z: 0, w: 0.98078537}
-  m_LocalPosition: {x: 0, y: 5, z: 90}
+  m_LocalRotation: {x: 0.13052616, y: 0, z: 0, w: 0.9914449}
+  m_LocalPosition: {x: 0, y: 6, z: 85}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 382673216}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 22.5, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 15, y: 0, z: 0}
 --- !u!114 &15040815
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -611,6 +611,7 @@ GameObject:
   - component: {fileID: 756335322}
   - component: {fileID: 756335321}
   - component: {fileID: 756335326}
+  - component: {fileID: 756335328}
   m_Layer: 0
   m_Name: Battle Platform
   m_TagString: Untagged
@@ -769,6 +770,19 @@ MonoBehaviour:
   m_MinRegionArea: 2
   m_NavMeshData: {fileID: 23800000, guid: c831b5fe07fbb1a42a73f833c4cafcb5, type: 2}
   m_BuildHeightMesh: 0
+--- !u!114 &756335328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 756335320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e53a3c744de1d8b4dbf85dbbef25d99a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 10
 --- !u!114 &789257437 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4466276617249225983, guid: 04168ded95d25b74e92c93afff9352e3, type: 3}
@@ -1127,7 +1141,7 @@ GameObject:
   - component: {fileID: 1117978366}
   - component: {fileID: 1117978370}
   - component: {fileID: 1117978372}
-  - component: {fileID: 1117978371}
+  - component: {fileID: 1117978373}
   m_Layer: 3
   m_Name: Boulderdash
   m_TagString: Untagged
@@ -1243,19 +1257,6 @@ NavMeshAgent:
   m_BaseOffset: 0.5
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
---- !u!114 &1117978371
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1117978365}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 39615a6890207874ab3f897701f4d2e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  vCamera3rdPerson: {fileID: 789257437}
 --- !u!114 &1117978372
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1269,6 +1270,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 10
+--- !u!114 &1117978373
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1117978365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39615a6890207874ab3f897701f4d2e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Lateef: {fileID: 6312296965945249517, guid: 0aeb5e5f23c6aa248a2da844fb3528d1, type: 3}
+  Meresankh: {fileID: 7850871964680029330, guid: c878ce7ed823ee54bac80ea78e2a4766, type: 3}
+  vCamera3rdPerson: {fileID: 789257437}
 --- !u!1 &1195103973 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5105497283239488713, guid: 61a2e24a7f86bc543ae4e82bbb7e1e74, type: 3}
