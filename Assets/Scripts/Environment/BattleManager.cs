@@ -15,20 +15,12 @@ namespace SOS.AndrewsAdventure.Character
     public class BattleManager : MonoBehaviour
     {
         private bool inBattle = false;
-        private Transform player;
         private Party.Party party;
-        [SerializeField] Transform Lateef;
-        [SerializeField] Transform Meresankh;
         public CinemachineVirtualCamera vCamera3rdPerson;
-        private NavMeshAgent nma;
 
         public void Start()
         {
-            player = FindAnyObjectByType<PlayerController>().transform;
             party = FindAnyObjectByType<Party.Party>();
-            Meresankh = party.GetCharacter("Meresankh").transform;
-            Lateef = party.GetCharacter("Lateef").transform;
-            nma = GetComponent<NavMeshAgent>();
         }
         public void OnTriggerEnter(Collider collider)
         {
@@ -40,14 +32,10 @@ namespace SOS.AndrewsAdventure.Character
 
         public void Update() 
         {
-            nma.destination = player.position;
-
             if (inBattle == true)
             {
-                player.position = new Vector3(-3f, 2.31f, 102f);
+                party.MoveParty(new Vector3(-3f, 2.31f, 102f));
                 transform.position = new Vector3(3f, 2.31f, 102f);
-                Lateef.position = new Vector3(-4f, 1f, 100f);
-                Meresankh.position = new Vector3(-5f, 1f, 98);
                 vCamera3rdPerson.Priority = 1;
             }
         }
