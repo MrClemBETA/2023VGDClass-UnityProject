@@ -794,6 +794,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45e653bab7fb20e499bda25e1b646fea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!4 &817690786 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 37707083451268676, guid: 04168ded95d25b74e92c93afff9352e3, type: 3}
+  m_PrefabInstance: {fileID: 7669564602453157368}
+  m_PrefabAsset: {fileID: 0}
 --- !u!43 &895540575
 Mesh:
   m_ObjectHideFlags: 0
@@ -1245,7 +1250,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 3.5
+  m_Speed: 5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -1282,9 +1287,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39615a6890207874ab3f897701f4d2e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Lateef: {fileID: 6312296965945249517, guid: 0aeb5e5f23c6aa248a2da844fb3528d1, type: 3}
-  Meresankh: {fileID: 7850871964680029330, guid: c878ce7ed823ee54bac80ea78e2a4766, type: 3}
   vCamera3rdPerson: {fileID: 789257437}
+  LateefPoint: {fileID: 1880238719}
+  MeresankhPoint: {fileID: 1524269831}
+  Boulderdash: {fileID: 1117978370}
+  TheOriginalAndrew: {fileID: 817690786}
 --- !u!1 &1195103973 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5105497283239488713, guid: 61a2e24a7f86bc543ae4e82bbb7e1e74, type: 3}

@@ -17,10 +17,15 @@ namespace SOS.AndrewsAdventure.Character
         private bool inBattle = false;
         private Party.Party party;
         public CinemachineVirtualCamera vCamera3rdPerson;
+        [SerializeField] Transform LateefPoint;
+        [SerializeField] Transform MeresankhPoint;
+        public NavMeshAgent Boulderdash;
+        [SerializeField] Transform TheOriginalAndrew;
 
         public void Start()
         {
             party = FindAnyObjectByType<Party.Party>();
+            Boulderdash = GetComponent<NavMeshAgent>();
         }
         public void OnTriggerEnter(Collider collider)
         {
@@ -32,11 +37,14 @@ namespace SOS.AndrewsAdventure.Character
 
         public void Update() 
         {
+            Boulderdash.destination = TheOriginalAndrew.position;
             if (inBattle == true)
             {
+                vCamera3rdPerson.Priority = 1;
                 party.MoveParty(new Vector3(-3f, 2.31f, 102f));
                 transform.position = new Vector3(3f, 2.31f, 102f);
-                vCamera3rdPerson.Priority = 1;
+                LateefPoint.position = new Vector3(-5f, 1.5f, 100f);
+                MeresankhPoint.position = new Vector3(-7f, 1.5f, 98f);
             }
         }
     }

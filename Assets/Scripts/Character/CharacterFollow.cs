@@ -10,8 +10,6 @@ public class CharacterFollow : MonoBehaviour
     public Transform TheOriginalAndrew;
     private NavMeshAgent Lateef;
     private NavMeshAgent Meresankh;
-
-    public float detectionRadius = 5f;
     
     private void Start()
     {
