@@ -10,6 +10,7 @@ namespace SOS.AndrewsAdventure.Character.Party
     {
         [SerializeField] PartyData partyData;
         [SerializeField] Transform[] partyFollowPoints;
+        [SerializeField] Vector3[] battlePointOffsets;
 
         private Transform player;
         private GameObject[] partyMembers;
@@ -17,6 +18,9 @@ namespace SOS.AndrewsAdventure.Character.Party
         void Start()
         {
             player = FindAnyObjectByType<PlayerController>().transform;
+
+            if (battlePointOffsets.Length != partyData.partyMembers.Length)
+                throw new UnityException("The number of battle point offsets do not match the number of party members.");
 
             int i = 0;
             partyMembers = new GameObject[partyData.partyMembers.Length];
@@ -40,7 +44,7 @@ namespace SOS.AndrewsAdventure.Character.Party
             foreach(GameObject go in partyMembers)
             {
                 if (i >= partyFollowPoints.Length) return;
-                go.transform.position = partyFollowPoints[i].position;
+                go.transform.position = location + battlePointOffsets[i];
                 i++;
             }
         }

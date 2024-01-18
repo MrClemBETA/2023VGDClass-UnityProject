@@ -14,13 +14,13 @@ namespace SOS.AndrewsAdventure.Character
     [RequireComponent(typeof(Health))]
     public class BattleManager : MonoBehaviour
     {
+        public CinemachineVirtualCamera vCamera3rdPerson;
+        [SerializeField] Transform battlePlayerLocation;
+        [SerializeField] Transform battleEnemiesLocation;
+        [SerializeField] Transform playerLocation;
         private bool inBattle = false;
         private Party.Party party;
-        public CinemachineVirtualCamera vCamera3rdPerson;
-        [SerializeField] Transform LateefPoint;
-        [SerializeField] Transform MeresankhPoint;
         public NavMeshAgent Boulderdash;
-        [SerializeField] Transform TheOriginalAndrew;
 
         public void Start()
         {
@@ -37,14 +37,12 @@ namespace SOS.AndrewsAdventure.Character
 
         public void Update() 
         {
-            Boulderdash.destination = TheOriginalAndrew.position;
+            Boulderdash.destination = playerLocation.position;
             if (inBattle == true)
             {
                 vCamera3rdPerson.Priority = 1;
-                party.MoveParty(new Vector3(-3f, 2.31f, 102f));
-                transform.position = new Vector3(3f, 2.31f, 102f);
-                LateefPoint.position = new Vector3(-5f, 1.5f, 100f);
-                MeresankhPoint.position = new Vector3(-7f, 1.5f, 98f);
+                party.MoveParty(battlePlayerLocation.position);
+                transform.position = battleEnemiesLocation.position;
             }
         }
     }
