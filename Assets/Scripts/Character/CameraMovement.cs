@@ -7,8 +7,13 @@ namespace SOS.AndrewsAdventure.Character
     {
         [SerializeField] float cameraRotateSpeed;
         [SerializeField] float xBuffer = 100;
-
+        public bool inbattle = false;
+        
         private float rotation = 0;
+        public void Start()
+        {
+            
+        }
 
         public void HorizontalMovement(InputAction.CallbackContext value)
         {
@@ -19,6 +24,10 @@ namespace SOS.AndrewsAdventure.Character
         private void Update()
         {
             transform.Rotate(Vector3.up, rotation / 360);
+            if (inbattle == true)
+            {
+                Camera.main.transform.position = new Vector3(0f, 0f, 90);
+            }
         }
     }
 }

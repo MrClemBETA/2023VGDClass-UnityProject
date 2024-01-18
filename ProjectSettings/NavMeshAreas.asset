@@ -11,65 +11,65 @@ NavMeshProjectSettings:
     cost: 1
   - name: Jump
     cost: 1
-  - name:
+  - name: 
     cost: 1
-  - name:
+  - name: 
     cost: 1
-  - name:
+  - name: 
     cost: 1
-  - name:
+  - name: 
     cost: 1
-  - name:
+  - name: 
     cost: 1
-  - name:
+  - name: 
     cost: 1
-  - name:
+  - name: 
     cost: 1
-  - name:
+  - name: 
     cost: 1
-  - name:
+  - name: 
     cost: 1
-  - name:
+  - name: 
     cost: 1
-  - name:
+  - name: 
     cost: 1
-  - name:
+  - name: 
     cost: 1
-  - name:
+  - name: 
     cost: 1
-  - name:
+  - name: 
     cost: 1
-  - name:
+  - name: 
     cost: 1
-  - name:
+  - name: 
     cost: 1
-  - name:
+  - name: 
     cost: 1
-  - name:
+  - name: 
     cost: 1
-  - name:
+  - name: 
     cost: 1
-  - name:
+  - name: 
     cost: 1
-  - name:
+  - name: 
     cost: 1
-  - name:
+  - name: 
     cost: 1
-  - name:
+  - name: 
     cost: 1
-  - name:
+  - name: 
     cost: 1
-  - name:
+  - name: 
     cost: 1
-  - name:
+  - name: 
     cost: 1
-  - name:
+  - name: 
     cost: 1
-  - name:
+  - name: 
     cost: 1
-  - name:
+  - name: 
     cost: 1
-  m_LastAgentTypeID: -1923039037
+  m_LastAgentTypeID: 287145453
   m_Settings:
   - serializedVersion: 3
     agentTypeID: 0
