@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: StartingData
   m_EditorClassIdentifier: 
   partyMembers:
-  - {fileID: 4388999271339880904, guid: c878ce7ed823ee54bac80ea78e2a4766, type: 3}
-  - {fileID: 541264577972386743, guid: 0aeb5e5f23c6aa248a2da844fb3528d1, type: 3}
+  - {fileID: 2033954352473495123, guid: 39766790936e9ac4caf239feaa928b4d, type: 3}
+  - {fileID: 2033954352473495123, guid: 39766790936e9ac4caf239feaa928b4d, type: 3}

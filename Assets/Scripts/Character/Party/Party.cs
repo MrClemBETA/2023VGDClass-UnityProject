@@ -17,7 +17,7 @@ namespace SOS.AndrewsAdventure.Character.Party
 
         void Start()
         {
-            player = FindAnyObjectByType<PlayerController>().transform;
+            player = FindAnyObjectByType<CharacterController>().transform;
 
             if (battlePointOffsets.Length != partyData.partyMembers.Length)
                 throw new UnityException("The number of battle point offsets do not match the number of party members.");
