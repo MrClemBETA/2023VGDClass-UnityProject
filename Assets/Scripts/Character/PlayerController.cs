@@ -8,7 +8,7 @@ namespace SOS.AndrewsAdventure.Character
     public class PlayerController : MonoBehaviour
     {
         [SerializeField] float sprintMultiplier = 2f;
-        [SerializeField] float walkSpeed = 5f;
+        [SerializeField] public float walkSpeed = 5f;
         [SerializeField] float jumpSpeed = 3f;
         [SerializeField] CinemachineVirtualCamera vCamera3rdPerson;
 
