@@ -4,23 +4,24 @@ using UnityEngine;
 
 public class ArrowsManager : MonoBehaviour
 {
-    [SerializeField] public int flightTime = 60;
-    private int timer = 60;
+    [SerializeField] float flightTime = 1f;
+    [SerializeField] float flightSpeed = 5f;
+
+    private float timer = 0f;
     private Vector3 spawnPosition;
     // Update is called once per frame
     private void Start()
     {
         spawnPosition = transform.position;
+        GetComponent<Rigidbody>().velocity = flightSpeed * Vector3.right;
     }
     void Update()
     {
-        transform.localPosition += new Vector3(0.25f, 0, 0);
-        timer -= 1;
-        if (timer == 0)
+        timer += Time.deltaTime;
+        if (timer >= flightTime)
         {
             transform.position = spawnPosition;
-            timer = flightTime;
-
+            timer = 0f;
         }
     }
 

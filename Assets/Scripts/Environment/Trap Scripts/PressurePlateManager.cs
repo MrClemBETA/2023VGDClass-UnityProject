@@ -4,11 +4,6 @@ using UnityEngine;
 
 public class PressurePlateManager : MonoBehaviour
 {
-    Transform pressurePlate;
-    private void Start()
-    {
-        pressurePlate = GetComponent<Transform>();
-    }
     private void OnTriggerEnter(Collider TheOriginalAndrew)
     {
         foreach (Transform child in transform)
