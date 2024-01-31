@@ -5219,7 +5219,11 @@ TerrainCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
+<<<<<<< HEAD
   m_TerrainData: {fileID: 15600000, guid: 71b808c00741c504989751623f3609f4, type: 2}
+=======
+  m_TerrainData: {fileID: 15600000, guid: a051bb5a1aaf8ad49b5d7ccb515cd536, type: 2}
+>>>>>>> develop
   m_EnableTreeColliders: 1
 --- !u!218 &1994702246
 Terrain:
@@ -5230,7 +5234,11 @@ Terrain:
   m_GameObject: {fileID: 1994702244}
   m_Enabled: 1
   serializedVersion: 6
+<<<<<<< HEAD
   m_TerrainData: {fileID: 15600000, guid: 71b808c00741c504989751623f3609f4, type: 2}
+=======
+  m_TerrainData: {fileID: 15600000, guid: a051bb5a1aaf8ad49b5d7ccb515cd536, type: 2}
+>>>>>>> develop
   m_TreeDistance: 5000
   m_TreeBillboardDistance: 50
   m_TreeCrossFadeLength: 5
