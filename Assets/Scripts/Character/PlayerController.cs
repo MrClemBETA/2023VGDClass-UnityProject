@@ -60,7 +60,7 @@ namespace SOS.AndrewsAdventure.Character
         }
         private void OnControllerColliderHit(ControllerColliderHit hit)
         {
-            if(controller.isGrounded == true && hit.transform.CompareTag("MovableBox"))
+            if(controller.isGrounded == true && hit.transform.CompareTag("Movable"))
             {
                 Rigidbody boxBody = hit.collider.attachedRigidbody;
                 if(boxBody == null || boxBody.isKinematic) 

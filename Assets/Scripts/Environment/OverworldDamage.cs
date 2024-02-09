@@ -11,8 +11,11 @@ namespace SOS.AndrewsAdventure.Environment
 
         private void OnTriggerStay(Collider other)
         {
-            Health playerHealth = FindAnyObjectByType<PlayerController>().gameObject.GetComponent<Health>();
-            playerHealth.TakeDamage(trapDamage);
+            if (other.tag == "Player")
+            {
+                Health playerHealth = FindAnyObjectByType<PlayerController>().gameObject.GetComponent<Health>();
+                playerHealth.TakeDamage(trapDamage);
+            }
         }
         public void OnTriggerEnter(Collider other)
         {

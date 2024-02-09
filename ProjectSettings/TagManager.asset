@@ -6,7 +6,7 @@ TagManager:
   tags:
   - Web
   - CinemachineTarget
-  - MovableBox
+  - Movable
   layers:
   - Default
   - TransparentFX
@@ -15,7 +15,7 @@ TagManager:
   - Water
   - UI
   - Pushblock Layer
-  - 
+  - Trap Layer
   - 
   - 
   - 
