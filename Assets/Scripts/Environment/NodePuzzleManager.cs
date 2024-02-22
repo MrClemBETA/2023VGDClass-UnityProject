@@ -6,16 +6,12 @@ using UnityEngine;
 
 public class TouchObjectManager : MonoBehaviour
 {
-    [SerializeField] int nodesTouched;
-    [SerializeField] int nodesNeeded = 4;
+    int nodesTouched;
+    [SerializeField] int nodesNeeded = 3;
     [SerializeField] GameObject disappearingObject;
-    private void Start()
-    {
-        nodesTouched = 0;
-    }
     private void OnTriggerEnter(Collider other)
     {
-        if(child.gameComponent)
+        if(other != disappearingObject)
             nodesTouched++;
     }
     void Update()
