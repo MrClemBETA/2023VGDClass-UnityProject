@@ -8,18 +8,23 @@ public class TouchObjectManager : MonoBehaviour
 {
     int nodesTouched;
     [SerializeField] int nodesNeeded = 3;
-    [SerializeField] GameObject disappearingObject;
+    [SerializeField] GameObject linkedObject;
     private void OnTriggerEnter(Collider other)
     {
-        if(other != disappearingObject)
-            nodesTouched++;
+        nodesTouched++;
     }
     void Update()
     {
         if (nodesTouched == nodesNeeded)
         {
-            disappearingObject.SetActive(false);
-            print("hi");
+            if (linkedObject.activeSelf == true)
+            {
+                linkedObject.SetActive(false);
+            }
+            else if (linkedObject.activeSelf == false)
+            {
+                linkedObject.SetActive(true);
+            }
         }
 
     }
