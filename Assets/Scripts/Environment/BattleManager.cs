@@ -18,6 +18,7 @@ namespace SOS.AndrewsAdventure.Character
         [SerializeField] Transform battlePlayerLocation;
         [SerializeField] Transform battleEnemiesLocation;
         [SerializeField] Transform playerLocation;
+        [SerializeField] float range = 15f;
         private bool inBattle = false;
         private Party.Party party;
         public NavMeshAgent Boulderdash;
@@ -35,9 +36,13 @@ namespace SOS.AndrewsAdventure.Character
             }
         }
 
-        public void Update() 
+        public void Update()
         {
-            Boulderdash.destination = playerLocation.position;
+            print((Vector3.Distance(playerLocation.position, transform.position)));
+            if (Vector3.Distance(playerLocation.position, transform.position) <= range)
+            {
+                Boulderdash.destination = playerLocation.position;
+            }
             if (inBattle == true)
             {
                 vCamera3rdPerson.Priority = 1;
