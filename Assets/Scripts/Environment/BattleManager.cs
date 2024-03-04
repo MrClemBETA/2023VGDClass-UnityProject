@@ -18,13 +18,15 @@ namespace SOS.AndrewsAdventure.Character
         [SerializeField] Transform battlePlayerLocation;
         [SerializeField] Transform battleEnemiesLocation;
         [SerializeField] Transform playerLocation;
-        [SerializeField] float range = 15f;
+        [SerializeField] float chaseRange = 10f;
+        [SerializeField] float detectRange = 1f;
         private bool inBattle = false;
         private Party.Party party;
         public NavMeshAgent Boulderdash;
 
         public void Start()
         {
+            detectRange = chaseRange * 1.5f;
             party = FindAnyObjectByType<Party.Party>();
             Boulderdash = GetComponent<NavMeshAgent>();
         }
@@ -38,10 +40,21 @@ namespace SOS.AndrewsAdventure.Character
 
         public void Update()
         {
-            print((Vector3.Distance(playerLocation.position, transform.position)));
-            if (Vector3.Distance(playerLocation.position, transform.position) <= range)
+            if (Vector3.Distance(playerLocation.position, transform.position) <= detectRange)
+            {
+                Boulderdash.destination = transform.position;
+                gameObject.transform.GetChild(0).gameObject.SetActive(false);
+                gameObject.transform.GetChild(1).gameObject.SetActive(true);
+            }
+            if (Vector3.Distance(playerLocation.position, transform.position) <= chaseRange)
             {
                 Boulderdash.destination = playerLocation.position;
+                gameObject.transform.GetChild(1).gameObject.SetActive(false);
+                gameObject.transform.GetChild(0).gameObject.SetActive(true);
+            }
+            if (Vector3.Distance(playerLocation.position, transform.position) > detectRange)
+            {
+                gameObject.transform.GetChild(1).gameObject.SetActive(false);
             }
             if (inBattle == true)
             {
