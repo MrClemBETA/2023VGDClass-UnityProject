@@ -8,7 +8,7 @@ namespace SOS.AndrewsAdventure.Character
         [Min(10)]
         [SerializeField] public int maxHealth = 10;
 
-        private int health;
+        public int health;
         private float invincibilityTime = 1f;
         private float flashTime = .1f;
 
