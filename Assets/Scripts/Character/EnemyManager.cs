@@ -12,8 +12,8 @@ namespace SOS.AndrewsAdventure.Character
         [SerializeField] Transform battlePlayerLocation;
         [SerializeField] Transform battleEnemiesLocation;
         [SerializeField] Transform playerLocation;
-        [SerializeField] float chaseRange = 10f;
-        [SerializeField] float detectRange = 1f;
+        [SerializeField] float detectRange = 0f;
+        float chaseRange = 0f;
         public Transform MCB;
         public bool inBattle = false;
         private Party.Party party;
@@ -21,7 +21,7 @@ namespace SOS.AndrewsAdventure.Character
 
         public void Start()
         {
-            detectRange = chaseRange * 1.5f;
+            chaseRange = detectRange * .5f;
             party = FindAnyObjectByType<Party.Party>();
             Boulderdash = GetComponent<NavMeshAgent>();
         }

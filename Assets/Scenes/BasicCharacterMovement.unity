@@ -504,7 +504,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &169222560
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2712,7 +2712,7 @@ GameObject:
   - component: {fileID: 756335322}
   - component: {fileID: 756335321}
   - component: {fileID: 756335326}
-  - component: {fileID: 756335328}
+  - component: {fileID: 756335327}
   m_Layer: 0
   m_Name: Battle Platform
   m_TagString: Untagged
@@ -2873,7 +2873,7 @@ MonoBehaviour:
   m_MinRegionArea: 2
   m_NavMeshData: {fileID: 23800000, guid: c831b5fe07fbb1a42a73f833c4cafcb5, type: 2}
   m_BuildHeightMesh: 0
---- !u!114 &756335328
+--- !u!114 &756335327
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2882,10 +2882,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 756335320}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e53a3c744de1d8b4dbf85dbbef25d99a, type: 3}
+  m_Script: {fileID: 11500000, guid: 65c9c6985bf567f40abfe8b94a7e812f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 10
+  script: {fileID: 0}
+  inBattle: {fileID: 0}
+  state: 0
 --- !u!1 &767924835
 GameObject:
   m_ObjectHideFlags: 0
@@ -3239,6 +3241,7 @@ GameObject:
   - component: {fileID: 1117978370}
   - component: {fileID: 1117978372}
   - component: {fileID: 1117978373}
+  - component: {fileID: 1117978374}
   m_Layer: 3
   m_Name: Boulderdash
   m_TagString: Untagged
@@ -3369,6 +3372,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 10
+  health: 0
 --- !u!114 &1117978373
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3385,11 +3389,24 @@ MonoBehaviour:
   battlePlayerLocation: {fileID: 1393813672}
   battleEnemiesLocation: {fileID: 849468884}
   playerLocation: {fileID: 817690786}
-  chaseRange: 10
-  detectRange: 1
+  detectRange: 20
   MCB: {fileID: 633266395}
   inBattle: 0
   Boulderdash: {fileID: 1117978370}
+--- !u!114 &1117978374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1117978365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e53a3c744de1d8b4dbf85dbbef25d99a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 50
+  health: 0
 --- !u!1001 &1239503779
 PrefabInstance:
   m_ObjectHideFlags: 0
