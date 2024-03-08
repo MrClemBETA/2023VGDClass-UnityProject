@@ -18,7 +18,7 @@ public class NewBehaviourScript : MonoBehaviour
 
     void Awake()
     {
-        lateef = GameObject.Find()
+
     }
     void chooseCharacter()
     {
@@ -28,10 +28,10 @@ public class NewBehaviourScript : MonoBehaviour
         }
     }
 
-    void damageCalculation(float chosenCharacter.AM, float chosenCharacter.BA, float chosenEnemy.DD, float chosenCharacter.BD) 
-    { 
+//    void damageCalculation(float chosenCharacter.AM, float chosenCharacter.BA, float chosenEnemy.DD, float chosenCharacter.BD) 
+//    { 
     
-    }
+//    }
 
     private void Start()
     {
