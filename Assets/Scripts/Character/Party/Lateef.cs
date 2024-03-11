@@ -4,16 +4,17 @@ using UnityEngine;
 
 public class Lateef : MonoBehaviour
 {
-    public int maxHP = 15;
-    public int HP = 15;
+    public float maxHP = 15f;
+    public float HP = 15;
     public float AM = 0.7f;
     public float BA = 0f;
     public float DD = 1.2f;
     public float BD = 3f;
 
-    void levelUp(int maxHP, int HP, float AM, float BA, float DD, float BD) 
+    void levelUp(float maxHP, float HP, float AM, float BA, float DD, float BD) 
     {
-        maxHP++;
+        maxHP *= 1.2f;
+        Mathf.Round(maxHP);
         HP = maxHP;
         AM += 0.01f;
         BA += 0.1f;
