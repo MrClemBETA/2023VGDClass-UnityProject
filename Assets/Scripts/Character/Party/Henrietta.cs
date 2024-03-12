@@ -3,13 +3,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Andrew : MonoBehaviour
+public class Henrietta : MonoBehaviour
 {
-    public float maxHP = 10f;
-    public float HP = 10;
-    public float AM = 0f;
-    public float BA = 1f;
-    public float DD = 1f;
+    public float maxHP = 8f;
+    public float HP = 8;
+    public float AM = 1.5f;
+    public float BA = 5f;
+    public float DD = 0.5f;
     public float BD = 0f;
     private float levelUpConstant = 1.02329299228f;
     public Character level;
@@ -18,8 +18,8 @@ public class Andrew : MonoBehaviour
     {
         maxHP = Mathf.Round((maxHP * Mathf.Pow(levelUpConstant, (level - 1 / 2))));
         HP = maxHP;
-        AM += 0.01f;
-        BA += 0.1f;
+        AM += 0.05f;
+        BA += 0.2f;
         DD += 0.01f;
         BD += 0.1f;
     }

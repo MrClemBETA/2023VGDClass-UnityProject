@@ -3,13 +3,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Andrew : MonoBehaviour
+public class Ahmose : MonoBehaviour
 {
-    public float maxHP = 10f;
-    public float HP = 10;
-    public float AM = 0f;
-    public float BA = 1f;
-    public float DD = 1f;
+    public float maxHP = 9f;
+    public float HP = 9;
+    public float AM = 1.1f;
+    public float BA = 0f;
+    public float DD = 0.8f;
     public float BD = 0f;
     private float levelUpConstant = 1.02329299228f;
     public Character level;
@@ -18,9 +18,9 @@ public class Andrew : MonoBehaviour
     {
         maxHP = Mathf.Round((maxHP * Mathf.Pow(levelUpConstant, (level - 1 / 2))));
         HP = maxHP;
-        AM += 0.01f;
+        AM += 0.03f;
         BA += 0.1f;
         DD += 0.01f;
-        BD += 0.1f;
+        BD += 0.5f;
     }
 }
