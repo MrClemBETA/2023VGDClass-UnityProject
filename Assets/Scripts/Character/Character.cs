@@ -7,21 +7,32 @@ namespace SOS.AndrewsAdventure.Character
     public class Character : MonoBehaviour
     {
         public int level = 0;
-        [SerializeField] float attackMultiplier;
-        [SerializeField] float bonusAttack;
-        [SerializeField] float defenseDivider;
-        [SerializeField] float bonusDefense;
+        [SerializeField] float AM;
+        [SerializeField] float BA;
+        [SerializeField] float DD;
+        [SerializeField] float BD;
         [SerializeField] float baseDamage;
         float takenDamage = 0;
+        public EnemyManager inBattle;
 
+        private void OnMouseDown()
+        {
+            if(inBattle == true)
+            {
+                if (transform.name == "Lateef")
+                {
+                    get
+                }
+            }
+        }
         void levelUp()
         {
             level++;
         }
 
-        public void TakeDamage(Character enemy)
+        public void TakeDamage(chosenCharacter enemy)
         {
-            takenDamage = (((baseDamage * attackMultiplier) + bonusAttack)/enemy.defenseDivider) - enemy.bonusDefense;
+            takenDamage = ((baseDamage * AM)/enemy.DD) - enemy.BD + BA;
             Mathf.Round(takenDamage);
             if(takenDamage <= 0)
             {

@@ -5,19 +5,24 @@ using UnityEngine;
 
 public class Andrew : MonoBehaviour
 {
-    public float maxHP = 10f;
-    public float HP = 10;
-    public float AM = 0f;
-    public float BA = 1f;
-    public float DD = 1f;
-    public float BD = 0f;
+    public int HP = 10;
     private float levelUpConstant = 1.02329299228f;
     public Character level;
+    public Dictionary<string, float> andrewStats = new Dictionary<string,float>();
 
-    void levelUp(float maxHP, float HP, float AM, float BA, float DD, float BD, int level)
+    private void Start()
     {
-        maxHP = Mathf.Round((maxHP * Mathf.Pow(levelUpConstant, (level - 1 / 2))));
-        HP = maxHP;
+        andrewStats.Add("maxHP", 10);
+        andrewStats.Add("AM", 1);
+        andrewStats.Add("BA", 0);
+        andrewStats.Add("DD", 1);
+        andrewStats.Add("BD", 0);
+    }
+
+    void levelUp(int level)
+    {
+        andrewStats.maxHP = Mathf.Round((maxHP * Mathf.Pow(levelUpConstant, (level - 1 / 2))));
+        andrewStats.Add(HP = maxHP;
         AM += 0.01f;
         BA += 0.1f;
         DD += 0.01f;
