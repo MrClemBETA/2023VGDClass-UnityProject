@@ -15,7 +15,7 @@ namespace SOS.AndrewsAdventure.Character
         {
             try
             {
-                return attributes.First(x => x.attributeName == name);
+                return attributes.First(x => x.name == name);
             } catch
             {
                 throw new Exception("Invalid attribute " + name + " given to the character.");

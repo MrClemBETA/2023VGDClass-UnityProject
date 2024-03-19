@@ -7,7 +7,6 @@ namespace SOS.AndrewsAdventure.Character
     [Serializable]
     public class Attribute : ScriptableObject
     {
-        public string attributeName;
         [SerializeField] float startingValue;
         [SerializeField] float incrementalValue;
 
