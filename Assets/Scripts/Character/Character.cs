@@ -1,4 +1,7 @@
-﻿using Unity.VisualScripting;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using Unity.VisualScripting;
 using UnityEngine;
 
 namespace SOS.AndrewsAdventure.Character
@@ -7,32 +10,39 @@ namespace SOS.AndrewsAdventure.Character
     public class Character : MonoBehaviour
     {
         public int level = 0;
-        [SerializeField] float AM;
-        [SerializeField] float BA;
-        [SerializeField] float DD;
-        [SerializeField] float BD;
-        [SerializeField] float baseDamage;
+        [SerializeField] AttributeGroup attributes;
         float takenDamage = 0;
         public EnemyManager inBattle;
 
         private void OnMouseDown()
         {
-            if(inBattle == true)
+            /*if(inBattle == true)
             {
                 if (transform.name == "Lateef")
                 {
                     get
                 }
-            }
+            } Don't know what's going on here, let's make sure this is cleaned up */
         }
         void levelUp()
         {
             level++;
         }
 
-        public void TakeDamage(chosenCharacter enemy)
+        public int GetData(string att)
         {
-            takenDamage = ((baseDamage * AM)/enemy.DD) - enemy.BD + BA;
+            return attributes.GetAttribute(att).GetData(level);
+        }
+
+        public void TakeDamage(Character enemy)
+        {
+            int baseDamage = GetData("Base Damage");
+            int AM = GetData("AM");
+            int DD = enemy.GetData("DD");
+            int BD = enemy.GetData("BD");
+            int BA = GetData("BA");
+
+            takenDamage = ((baseDamage * AM)/DD) - BD + BA;
             Mathf.Round(takenDamage);
             if(takenDamage <= 0)
             {

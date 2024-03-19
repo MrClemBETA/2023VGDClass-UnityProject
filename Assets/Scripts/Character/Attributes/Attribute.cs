@@ -1,32 +1,21 @@
 using System;
-using System.Collections.Generic;
-using Unity.VisualScripting.Dependencies.Sqlite;
-using UnityEditor.UI;
 using UnityEngine;
 
 namespace SOS.AndrewsAdventure.Character
 {
-    public abstract class Attribute : ScriptableObject
+    [CreateAssetMenu(fileName = "attribute", menuName = "Andrew's Adventure/Attributes/New Attribute", order = 1)]
+    [Serializable]
+    public class Attribute : ScriptableObject
     {
-        [SerializeField] List<AttributeByLevel> values;
+        public string attributeName;
+        [SerializeField] float startingValue;
+        [SerializeField] float incrementalValue;
+
 
         public int GetData(int level)
         {
-            int value = values.Find(x => x.level == level).value;
-            if (value == 0)
-                throw new IndexOutOfRangeException("Level data for level " + level + " does not exist for the " + this.GetType().Name + ".");
-            else
-                return value;
-
+            return (int)Math.Floor(startingValue + level * incrementalValue);
         }
 
-        [Serializable]
-        public struct AttributeByLevel
-        {
-            [Range(1, 100)]
-            public int level;
-            [Range(1, 100)]
-            public int value;
-        }
     }
 }
