@@ -14,16 +14,6 @@ namespace SOS.AndrewsAdventure.Character
         float takenDamage = 0;
         public EnemyManager inBattle;
 
-        private void OnMouseDown()
-        {
-            /*if(inBattle == true)
-            {
-                if (transform.name == "Lateef")
-                {
-                    get
-                }
-            } Don't know what's going on here, let's make sure this is cleaned up */
-        }
         void levelUp()
         {
             level++;
@@ -37,10 +27,10 @@ namespace SOS.AndrewsAdventure.Character
         public void TakeDamage(Character enemy)
         {
             int baseDamage = GetData("Base Damage");
-            int AM = GetData("AM");
-            int DD = enemy.GetData("DD");
-            int BD = enemy.GetData("BD");
-            int BA = GetData("BA");
+            int AM = GetData("Attack Multiplier");
+            int BA = GetData("Bonus Attack");
+            int DD = enemy.GetData("Defense Divider");
+            int BD = enemy.GetData("Bonus Defense");
 
             takenDamage = ((baseDamage * AM)/DD) - BD + BA;
             Mathf.Round(takenDamage);

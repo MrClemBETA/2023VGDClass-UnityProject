@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Ahmose
   m_EditorClassIdentifier: 
   attributes:
-  - {fileID: 11400000, guid: 4f2753f00b629d9449acc5a091b677cc, type: 2}
-  - {fileID: 11400000, guid: 1c6f964d4b9f79240814f99354900de3, type: 2}
-  - {fileID: 11400000, guid: dd94f22c52ba4ae40a04cb45709f9792, type: 2}
-  - {fileID: 11400000, guid: e8649e26d3266c843b489620a7aec19e, type: 2}
+  - {fileID: 11400000, guid: 7283f15044954a24fb67bf73017e8086, type: 2}
+  - {fileID: 11400000, guid: cc0ae0333b4f5674e9afe9d9da5e06fd, type: 2}
+  - {fileID: 11400000, guid: 1862fafaca383a54bab443e34b8a93cb, type: 2}
+  - {fileID: 11400000, guid: 1af98ae9968107741b98efafb0bf3e71, type: 2}
