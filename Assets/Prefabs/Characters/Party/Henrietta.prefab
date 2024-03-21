@@ -50,8 +50,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2033954352473495123, guid: 39766790936e9ac4caf239feaa928b4d, type: 3}
       propertyPath: m_Name
-      value: Party Member Variant
+      value: Henrietta
       objectReference: {fileID: 0}
+    - target: {fileID: 6390483321063046908, guid: 39766790936e9ac4caf239feaa928b4d, type: 3}
+      propertyPath: attributes
+      value: 
+      objectReference: {fileID: 11400000, guid: 69b99ab709a6b9447ba8d0ef5538a6f8, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

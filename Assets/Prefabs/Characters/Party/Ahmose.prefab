@@ -50,8 +50,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2033954352473495123, guid: 39766790936e9ac4caf239feaa928b4d, type: 3}
       propertyPath: m_Name
-      value: Party Member Variant
+      value: Ahmose
       objectReference: {fileID: 0}
+    - target: {fileID: 6390483321063046908, guid: 39766790936e9ac4caf239feaa928b4d, type: 3}
+      propertyPath: attributes
+      value: 
+      objectReference: {fileID: 11400000, guid: 9d46cc9b85744b6419091fa65951568f, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
