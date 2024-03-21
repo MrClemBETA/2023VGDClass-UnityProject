@@ -9,10 +9,10 @@ namespace SOS.AndrewsAdventure.Character
     [RequireComponent (typeof(Health))]
     public class Character : MonoBehaviour
     {
-        [SerializeField] AttributeGroup attributes;
+        [SerializeField] protected AttributeGroup attributes;
         float takenDamage = 0;
 
-        public int GetData(string att)
+        public virtual int GetData(string att)
         {
             Party.Party party = FindObjectOfType<Party.Party>();
             return attributes.GetAttribute(att).GetData(party.GetLevel());
