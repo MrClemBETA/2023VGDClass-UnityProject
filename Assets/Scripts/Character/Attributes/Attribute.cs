@@ -10,7 +10,6 @@ namespace SOS.AndrewsAdventure.Character
         [SerializeField] float startingValue;
         [SerializeField] float incrementalValue;
 
-
         public int GetData(int level)
         {
             return (int)Math.Floor(startingValue + level * incrementalValue);

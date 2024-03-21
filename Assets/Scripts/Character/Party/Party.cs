@@ -11,6 +11,7 @@ namespace SOS.AndrewsAdventure.Character.Party
         [SerializeField] PartyData partyData;
         [SerializeField] Transform[] partyFollowPoints;
         [SerializeField] Vector3[] battlePointOffsets;
+        [SerializeField] int level = 1;
 
         private Transform player;
         private GameObject[] partyMembers;
@@ -53,5 +54,7 @@ namespace SOS.AndrewsAdventure.Character.Party
         {
             return partyData.partyMembers.Single(p => p.name == name);
         }
+
+        public int GetLevel() { return level; }
     }
 }

@@ -9,19 +9,13 @@ namespace SOS.AndrewsAdventure.Character
     [RequireComponent (typeof(Health))]
     public class Character : MonoBehaviour
     {
-        public int level = 0;
         [SerializeField] AttributeGroup attributes;
         float takenDamage = 0;
-        public EnemyManager inBattle;
-
-        void levelUp()
-        {
-            level++;
-        }
 
         public int GetData(string att)
         {
-            return attributes.GetAttribute(att).GetData(level);
+            Party.Party party = FindObjectOfType<Party.Party>();
+            return attributes.GetAttribute(att).GetData(party.GetLevel());
         }
 
         public void TakeDamage(Character enemy)
