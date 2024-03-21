@@ -5,6 +5,5 @@ using UnityEngine;
 
 public class Andrew : Character
 {
-    public int HP = 10;
 
 }
