@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Boulderdash
   m_EditorClassIdentifier: 
   attributes:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: d51a186ad73838f4485578719aed5653, type: 2}
+  - {fileID: 11400000, guid: 2965c721d716ad844bc66d6c8530bd9c, type: 2}
+  - {fileID: 11400000, guid: 9feabc09233619a43a1f390332761c3a, type: 2}
+  - {fileID: 11400000, guid: cc733e5deef8ece44a8a881fe939e957, type: 2}

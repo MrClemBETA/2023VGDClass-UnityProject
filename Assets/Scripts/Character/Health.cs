@@ -6,7 +6,7 @@ namespace SOS.AndrewsAdventure.Character
     public class Health : MonoBehaviour
     {
         [Min(10)]
-        [SerializeField] public int maxHealth = 10;
+        [SerializeField] int maxHealth = 10;
 
         public int health;
         private float invincibilityTime = 1f;

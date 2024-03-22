@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72c3d8907001fc242a34057af70e5625, type: 3}
   m_Name: Bonus Defense
   m_EditorClassIdentifier: 
-  startingValue: 0
+  startingValue: Infinity
   incrementalValue: 0
