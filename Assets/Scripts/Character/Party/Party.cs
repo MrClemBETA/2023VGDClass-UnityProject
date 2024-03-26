@@ -18,7 +18,7 @@ namespace SOS.AndrewsAdventure.Character.Party
 
         void Start()
         {
-            player = FindAnyObjectByType<CharacterController>().transform;
+            player = FindAnyObjectByType<CharacterController>().transform;  
 
             if (battlePointOffsets.Length != partyData.partyMembers.Length)
                 throw new UnityException("The number of battle point offsets do not match the number of party members.");
@@ -30,7 +30,6 @@ namespace SOS.AndrewsAdventure.Character.Party
                 if (i >= partyFollowPoints.Length) return;
                 GameObject go = Instantiate(character);
                 go.transform.position = partyFollowPoints[i].transform.position;
-                go.AddComponent<NavMeshAgent>();
                 go.GetComponent<NavMeshAgent>().speed = character.GetComponent<PartyFollow>().GetSpeed();
                 go.GetComponent<PartyFollow>().SetTarget(partyFollowPoints[i].transform);
                 partyMembers[i] = go;

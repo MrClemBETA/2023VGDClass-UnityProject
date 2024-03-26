@@ -8,9 +8,6 @@ namespace SOS.AndrewsAdventure.Character
 {
     public class EnemyManager : MonoBehaviour
     {
-        public CinemachineVirtualCamera vCamera3rdPerson;
-        [SerializeField] Transform battlePlayerLocation;
-        [SerializeField] Transform battleEnemiesLocation;
         [SerializeField] Transform playerLocation;
         [SerializeField] float detectRange = 0f;
         float chaseRange = 0f;
@@ -35,6 +32,7 @@ namespace SOS.AndrewsAdventure.Character
 
         public void Update()
         {
+
             if (Vector3.Distance(playerLocation.position, transform.position) <= detectRange)
             {
                 Boulderdash.destination = transform.position;
@@ -52,13 +50,6 @@ namespace SOS.AndrewsAdventure.Character
             if (Vector3.Distance(playerLocation.position, transform.position) > detectRange)
             {
                 gameObject.transform.GetChild(1).gameObject.SetActive(false);
-            }
-            if (inBattle == true)
-            {
-                gameObject.transform.GetChild(0).gameObject.SetActive(false);
-                vCamera3rdPerson.Priority = 1;
-                party.MoveParty(battlePlayerLocation.position);
-                transform.position = battleEnemiesLocation.position;
             }
         }
     }
